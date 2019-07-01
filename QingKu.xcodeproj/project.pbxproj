@@ -317,8 +317,10 @@
 		7708FAFD22C70FB3005DDA31 /* 精选 */ = {
 			isa = PBXGroup;
 			children = (
-				7708FB0A22C71035005DDA31 /* JingXuanMainViewController.h */,
-				7708FB0B22C71035005DDA31 /* JingXuanMainViewController.m */,
+				777D6CF722C99B4A008370F8 /* Controller */,
+				777D6CF622C99B4A008370F8 /* DataController */,
+				777D6CF422C99B4A008370F8 /* Model */,
+				777D6CF522C99B4A008370F8 /* View */,
 			);
 			path = "精选";
 			sourceTree = "<group>";
@@ -326,8 +328,10 @@
 		7708FAFE22C70FC1005DDA31 /* 分类 */ = {
 			isa = PBXGroup;
 			children = (
-				7708FB0722C71026005DDA31 /* FenLeiMainViewController.h */,
-				7708FB0822C71026005DDA31 /* FenLeiMainViewController.m */,
+				777D6CF322C99B41008370F8 /* Controller */,
+				777D6CF222C99B41008370F8 /* DataController */,
+				777D6CF022C99B41008370F8 /* Model */,
+				777D6CF122C99B41008370F8 /* View */,
 			);
 			path = "分类";
 			sourceTree = "<group>";
@@ -335,8 +339,10 @@
 		7708FAFF22C70FCB005DDA31 /* 淘讯 */ = {
 			isa = PBXGroup;
 			children = (
-				7708FB0422C71010005DDA31 /* TaoXunMainViewController.h */,
-				7708FB0522C71010005DDA31 /* TaoXunMainViewController.m */,
+				777D6CED22C99B38008370F8 /* Controller */,
+				777D6CEF22C99B38008370F8 /* DataController */,
+				777D6CEC22C99B38008370F8 /* Model */,
+				777D6CEE22C99B38008370F8 /* View */,
 			);
 			path = "淘讯";
 			sourceTree = "<group>";
@@ -344,10 +350,132 @@
 		7708FB0022C70FD3005DDA31 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				777D6CEB22C99B0A008370F8 /* DataController */,
+				777D6CEA22C99B01008370F8 /* Model */,
+				777D6CE922C99AEE008370F8 /* Controller */,
+				777D6CE822C99AE0008370F8 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		777D6CE822C99AE0008370F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		777D6CE922C99AEE008370F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				7708FB0122C70FF9005DDA31 /* MyMainViewController.h */,
 				7708FB0222C70FF9005DDA31 /* MyMainViewController.m */,
 			);
-			path = "我的";
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		777D6CEA22C99B01008370F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		777D6CEB22C99B0A008370F8 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		777D6CEC22C99B38008370F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		777D6CED22C99B38008370F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7708FB0422C71010005DDA31 /* TaoXunMainViewController.h */,
+				7708FB0522C71010005DDA31 /* TaoXunMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		777D6CEE22C99B38008370F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		777D6CEF22C99B38008370F8 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		777D6CF022C99B41008370F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		777D6CF122C99B41008370F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		777D6CF222C99B41008370F8 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		777D6CF322C99B41008370F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7708FB0722C71026005DDA31 /* FenLeiMainViewController.h */,
+				7708FB0822C71026005DDA31 /* FenLeiMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		777D6CF422C99B4A008370F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		777D6CF522C99B4A008370F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		777D6CF622C99B4A008370F8 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		777D6CF722C99B4A008370F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7708FB0A22C71035005DDA31 /* JingXuanMainViewController.h */,
+				7708FB0B22C71035005DDA31 /* JingXuanMainViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		9315965E4B5344CA3F41AE66 /* Pods */ = {
