@@ -1,5 +1,5 @@
 //
-//  TaoXunMainViewController.h
+//  JingXuanMainViewController.h
 //  QingKu
 //
 //  Created by mdb-losaic on 2019/6/29.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TaoXunMainViewController : RootViewController
+@interface JianLeKeBaiCaiMainViewController : RootViewController
 
 @end
 

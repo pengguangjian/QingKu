@@ -8,9 +8,9 @@
 
 #import "PGGTabBarViewControllerConfig.h"
 #import "MyMainViewController.h"
-#import "TaoXunMainViewController.h"
+#import "GouWuCheMainViewController.h"
 #import "FenLeiMainViewController.h"
-#import "JingXuanMainViewController.h"
+#import "JianLeKeBaiCaiMainViewController.h"
 #import <CoreSpotlight/CoreSpotlight.h>
 
 
@@ -71,9 +71,9 @@
 
 - (NSArray *)PGGviewControllers {
     
-    UIViewController *firstController = [[JingXuanMainViewController alloc] init];
+    UIViewController *firstController = [[JianLeKeBaiCaiMainViewController alloc] init];
     UIViewController *secondController = [[FenLeiMainViewController alloc] init];
-    UIViewController *thirdController = [[TaoXunMainViewController alloc] init];
+    UIViewController *thirdController = [[GouWuCheMainViewController alloc] init];
     UIViewController *fourthController = [[MyMainViewController alloc] init];
     
     

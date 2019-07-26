@@ -6,15 +6,15 @@
 //  Copyright © 2019 mcxzfa. All rights reserved.
 //
 
-#import "TaoXunMainViewController.h"
+#import "GouWuCheMainViewController.h"
 
 
-@interface TaoXunMainViewController ()
+@interface GouWuCheMainViewController ()
 
 @end
 
 
-@implementation TaoXunMainViewController
+@implementation GouWuCheMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

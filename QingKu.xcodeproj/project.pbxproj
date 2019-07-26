@@ -38,9 +38,15 @@
 		7708FAF922C70F5E005DDA31 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAF722C70F5E005DDA31 /* RootTableViewController.m */; };
 		7708FAFC22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAFB22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m */; };
 		7708FB0322C70FF9005DDA31 /* MyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0222C70FF9005DDA31 /* MyMainViewController.m */; };
-		7708FB0622C71010005DDA31 /* TaoXunMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0522C71010005DDA31 /* TaoXunMainViewController.m */; };
+		7708FB0622C71010005DDA31 /* GouWuCheMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0522C71010005DDA31 /* GouWuCheMainViewController.m */; };
 		7708FB0922C71026005DDA31 /* FenLeiMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0822C71026005DDA31 /* FenLeiMainViewController.m */; };
-		7708FB0C22C71035005DDA31 /* JingXuanMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0B22C71035005DDA31 /* JingXuanMainViewController.m */; };
+		7708FB0C22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0B22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m */; };
+		776ABA8522EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 776ABA8422EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m */; };
+		776ABA8822EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 776ABA8722EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.m */; };
+		776ABA8B22EAB62F007E8848 /* LJDynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 776ABA8A22EAB62F007E8848 /* LJDynamicItem.m */; };
+		777C4C9222EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C4C9022EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m */; };
+		777C4C9522EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C4C9422EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.m */; };
+		77DE4A5022E9B2C60062E98C /* JianLeKeBaiCaiMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE4A4F22E9B2C60062E98C /* JianLeKeBaiCaiMainView.m */; };
 		98DC3ADF3BF871794E36733B /* Pods_QingKu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AA1335B3333DDEF4128D12 /* Pods_QingKu.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,14 +106,26 @@
 		7708FAFB22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGGTabBarViewControllerConfig.m; sourceTree = "<group>"; };
 		7708FB0122C70FF9005DDA31 /* MyMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMainViewController.h; sourceTree = "<group>"; };
 		7708FB0222C70FF9005DDA31 /* MyMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMainViewController.m; sourceTree = "<group>"; };
-		7708FB0422C71010005DDA31 /* TaoXunMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaoXunMainViewController.h; sourceTree = "<group>"; };
-		7708FB0522C71010005DDA31 /* TaoXunMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoXunMainViewController.m; sourceTree = "<group>"; };
+		7708FB0422C71010005DDA31 /* GouWuCheMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GouWuCheMainViewController.h; sourceTree = "<group>"; };
+		7708FB0522C71010005DDA31 /* GouWuCheMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GouWuCheMainViewController.m; sourceTree = "<group>"; };
 		7708FB0722C71026005DDA31 /* FenLeiMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiMainViewController.h; sourceTree = "<group>"; };
 		7708FB0822C71026005DDA31 /* FenLeiMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiMainViewController.m; sourceTree = "<group>"; };
-		7708FB0A22C71035005DDA31 /* JingXuanMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JingXuanMainViewController.h; sourceTree = "<group>"; };
-		7708FB0B22C71035005DDA31 /* JingXuanMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JingXuanMainViewController.m; sourceTree = "<group>"; };
+		7708FB0A22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainViewController.h; sourceTree = "<group>"; };
+		7708FB0B22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainViewController.m; sourceTree = "<group>"; };
 		7708FB0D22C7120C005DDA31 /* QingKuPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QingKuPrefixHeader.pch; sourceTree = "<group>"; };
 		7708FB0E22C71387005DDA31 /* PublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		776ABA8322EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainTableView.h; sourceTree = "<group>"; };
+		776ABA8422EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainTableView.m; sourceTree = "<group>"; };
+		776ABA8622EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainTableViewCell.h; sourceTree = "<group>"; };
+		776ABA8722EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainTableViewCell.m; sourceTree = "<group>"; };
+		776ABA8922EAB62F007E8848 /* LJDynamicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDynamicItem.h; sourceTree = "<group>"; };
+		776ABA8A22EAB62F007E8848 /* LJDynamicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDynamicItem.m; sourceTree = "<group>"; };
+		777C4C9022EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainItemScrollView.m; sourceTree = "<group>"; };
+		777C4C9122EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainItemScrollView.h; sourceTree = "<group>"; };
+		777C4C9322EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainScrollView.h; sourceTree = "<group>"; };
+		777C4C9422EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainScrollView.m; sourceTree = "<group>"; };
+		77DE4A4E22E9B2C60062E98C /* JianLeKeBaiCaiMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainView.h; sourceTree = "<group>"; };
+		77DE4A4F22E9B2C60062E98C /* JianLeKeBaiCaiMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainView.m; sourceTree = "<group>"; };
 		C9A44B21AC23A7859A0246F3 /* Pods-QingKu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingKu.debug.xcconfig"; path = "Target Support Files/Pods-QingKu/Pods-QingKu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,9 +204,9 @@
 			isa = PBXGroup;
 			children = (
 				7708FB0022C70FD3005DDA31 /* 我的 */,
-				7708FAFF22C70FCB005DDA31 /* 淘讯 */,
+				7708FAFF22C70FCB005DDA31 /* 购物车 */,
 				7708FAFE22C70FC1005DDA31 /* 分类 */,
-				7708FAFD22C70FB3005DDA31 /* 精选 */,
+				7708FAFD22C70FB3005DDA31 /* 捡了颗白菜 */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -241,6 +259,8 @@
 		7708FA9222C707F4005DDA31 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7708FAF122C70E76005DDA31 /* UIView+Additions.h */,
+				7708FAF022C70E76005DDA31 /* UIView+Additions.m */,
 				7708FA9322C707F4005DDA31 /* UINavigationController+APSafeTransition.m */,
 				7708FA9422C707F4005DDA31 /* UIView+UIViewExt.h */,
 				7708FA9622C707F4005DDA31 /* UITextView+Placeholder.m */,
@@ -295,8 +315,6 @@
 		7708FAEF22C70E6D005DDA31 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				7708FAF122C70E76005DDA31 /* UIView+Additions.h */,
-				7708FAF022C70E76005DDA31 /* UIView+Additions.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -314,7 +332,7 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
-		7708FAFD22C70FB3005DDA31 /* 精选 */ = {
+		7708FAFD22C70FB3005DDA31 /* 捡了颗白菜 */ = {
 			isa = PBXGroup;
 			children = (
 				777D6CF722C99B4A008370F8 /* Controller */,
@@ -322,7 +340,7 @@
 				777D6CF422C99B4A008370F8 /* Model */,
 				777D6CF522C99B4A008370F8 /* View */,
 			);
-			path = "精选";
+			path = "捡了颗白菜";
 			sourceTree = "<group>";
 		};
 		7708FAFE22C70FC1005DDA31 /* 分类 */ = {
@@ -336,7 +354,7 @@
 			path = "分类";
 			sourceTree = "<group>";
 		};
-		7708FAFF22C70FCB005DDA31 /* 淘讯 */ = {
+		7708FAFF22C70FCB005DDA31 /* 购物车 */ = {
 			isa = PBXGroup;
 			children = (
 				777D6CED22C99B38008370F8 /* Controller */,
@@ -344,7 +362,7 @@
 				777D6CEC22C99B38008370F8 /* Model */,
 				777D6CEE22C99B38008370F8 /* View */,
 			);
-			path = "淘讯";
+			path = "购物车";
 			sourceTree = "<group>";
 		};
 		7708FB0022C70FD3005DDA31 /* 我的 */ = {
@@ -398,8 +416,8 @@
 		777D6CED22C99B38008370F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7708FB0422C71010005DDA31 /* TaoXunMainViewController.h */,
-				7708FB0522C71010005DDA31 /* TaoXunMainViewController.m */,
+				7708FB0422C71010005DDA31 /* GouWuCheMainViewController.h */,
+				7708FB0522C71010005DDA31 /* GouWuCheMainViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -458,6 +476,18 @@
 		777D6CF522C99B4A008370F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				77DE4A4E22E9B2C60062E98C /* JianLeKeBaiCaiMainView.h */,
+				77DE4A4F22E9B2C60062E98C /* JianLeKeBaiCaiMainView.m */,
+				777C4C9322EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.h */,
+				777C4C9422EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.m */,
+				777C4C9122EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.h */,
+				777C4C9022EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m */,
+				776ABA8322EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.h */,
+				776ABA8422EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m */,
+				776ABA8622EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.h */,
+				776ABA8722EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.m */,
+				776ABA8922EAB62F007E8848 /* LJDynamicItem.h */,
+				776ABA8A22EAB62F007E8848 /* LJDynamicItem.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -472,8 +502,8 @@
 		777D6CF722C99B4A008370F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7708FB0A22C71035005DDA31 /* JingXuanMainViewController.h */,
-				7708FB0B22C71035005DDA31 /* JingXuanMainViewController.m */,
+				7708FB0A22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.h */,
+				7708FB0B22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -604,25 +634,31 @@
 			files = (
 				7708FAF222C70E77005DDA31 /* UIView+Additions.m in Sources */,
 				7708FAA422C707F5005DDA31 /* UINavigationController+APSafeTransition.m in Sources */,
+				777C4C9222EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m in Sources */,
 				7708FAA922C707F5005DDA31 /* UIView+UIViewExt.m in Sources */,
 				7708FB0322C70FF9005DDA31 /* MyMainViewController.m in Sources */,
-				7708FB0622C71010005DDA31 /* TaoXunMainViewController.m in Sources */,
+				7708FB0622C71010005DDA31 /* GouWuCheMainViewController.m in Sources */,
 				7708FAA822C707F5005DDA31 /* UINavigationBar+FixMargin.m in Sources */,
+				77DE4A5022E9B2C60062E98C /* JianLeKeBaiCaiMainView.m in Sources */,
+				776ABA8522EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m in Sources */,
 				7708FAE022C70D70005DDA31 /* HTTPManager.m in Sources */,
-				7708FB0C22C71035005DDA31 /* JingXuanMainViewController.m in Sources */,
+				7708FB0C22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m in Sources */,
 				7708FAEE22C70E1F005DDA31 /* BDKNotifyHUD.m in Sources */,
 				7708FAAC22C707F5005DDA31 /* UITabBar+badge.m in Sources */,
 				7708FAE822C70DC1005DDA31 /* GMDCircleLoader.m in Sources */,
 				7708FAEB22C70DEF005DDA31 /* MDB_ShareExstensionUserDefault.m in Sources */,
 				7708FB0922C71026005DDA31 /* FenLeiMainViewController.m in Sources */,
+				776ABA8822EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.m in Sources */,
 				7708FAFC22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m in Sources */,
 				7708FAA622C707F5005DDA31 /* UITextView+Placeholder.m in Sources */,
+				777C4C9522EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.m in Sources */,
 				7708FA4322C6F597005DDA31 /* ViewController.m in Sources */,
 				7708FAAB22C707F5005DDA31 /* UIImage+ExtensionScal.m in Sources */,
 				7708FA4E22C6F59C005DDA31 /* main.m in Sources */,
 				7708FAA722C707F5005DDA31 /* UIColor+Hex.m in Sources */,
 				7708FAF822C70F5E005DDA31 /* RootViewController.m in Sources */,
 				7708FAF922C70F5E005DDA31 /* RootTableViewController.m in Sources */,
+				776ABA8B22EAB62F007E8848 /* LJDynamicItem.m in Sources */,
 				7708FA4022C6F597005DDA31 /* AppDelegate.m in Sources */,
 				7708FAE422C70D88005DDA31 /* MDB_Imagemanager.m in Sources */,
 				7708FAAA22C707F5005DDA31 /* NSString+extend.m in Sources */,
