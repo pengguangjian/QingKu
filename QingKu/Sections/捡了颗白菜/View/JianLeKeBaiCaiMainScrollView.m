@@ -10,7 +10,7 @@
 #import "JianLeKeBaiCaiMainItemScrollView.h"
 
 
-@interface JianLeKeBaiCaiMainScrollView ()<JianLeKeBaiCaiMainTableViewDelegate>
+@interface JianLeKeBaiCaiMainScrollView ()<JianLeKeBaiCaiMainTableViewDelegate,UIScrollViewDelegate,JianLeKeBaiCaiMainItemScrollViewDelegate>
 {
     UIScrollView *scvback;
     JianLeKeBaiCaiMainItemScrollView *itemview;
@@ -41,6 +41,7 @@
 -(void)drawUI
 {
     itemview = [[JianLeKeBaiCaiMainItemScrollView alloc] initWithFrame:CGRectMake(0, 0, kMainScreenW, 50*kScale)];
+    [itemview setDelegate:self];
     [self addSubview:itemview];
     
     
@@ -51,9 +52,13 @@
         make.top.equalTo(self->itemview.mas_bottom);
         make.bottom.equalTo(self);
     }];
+    [scvback setContentSize:CGSizeMake(kMainScreenW*5, 0)];
+    [scvback setPagingEnabled:YES];
+    [scvback setDelegate:self];
+    [scvback setTag:110];
     
     arralltabview = [NSMutableArray new];
-    for(int i = 0 ; i <6; i++)
+    for(int i = 0 ; i <5; i++)
     {
         JianLeKeBaiCaiMainTableView *jvc = [[JianLeKeBaiCaiMainTableView alloc] initWithFrame:CGRectMake(kMainScreenW*i, 0, kMainScreenW, kMainScreenH-kTopHeight-kTabBarHeight-50*kScale) andtype:@"1"];
         [scvback addSubview:jvc];
@@ -64,18 +69,34 @@
     _subItemView = arralltabview[0];
     
 }
--(void)setAllScrollEnabled:(BOOL)able
+
+-(void)btNowSelectItem:(NSInteger)item
 {
-    for(JianLeKeBaiCaiMainTableView *jvc in arralltabview)
+    if(item>=0&&item<arralltabview.count)
     {
-        [jvc setScrollEnabled:able];
+        _subItemView = arralltabview[item];
+        [scvback setContentOffset:CGPointMake(kMainScreenW*item, 0)];
     }
 }
-
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
 //    self.contentOffsetc = scrollView.contentOffset;
-    [self.scoDelegate scrollViewDidScroll:scrollView];
+//    [self.scoDelegate scrollViewDidScroll:scrollView];
+    
+    
+    
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    if(scrollView.tag==110)
+    {
+        int inum = scrollView.contentOffset.x/kMainScreenW;
+        if(inum>=0&&inum<arralltabview.count)
+        {
+            _subItemView = arralltabview[inum];
+            [itemview btselectItem:inum];
+        }
+    }
 }
 
 //-(void)setItemContOffset:(CGPoint)point

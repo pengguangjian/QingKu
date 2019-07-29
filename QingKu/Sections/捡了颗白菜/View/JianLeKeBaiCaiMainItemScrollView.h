@@ -25,6 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - items数据
 -(void)bindItemsData:(NSArray *)arrmodels;
 
+///字符串数组
+-(void)bindListData:(NSArray *)arrlist;
+
 -(void)btselectItem:(NSInteger)item;
 
 @end

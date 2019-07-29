@@ -61,7 +61,7 @@
 -(void)writeData
 {
     self.arrVC = [self PGGviewControllers];
-    self.arrbttitle = [[NSMutableArray alloc]initWithObjects:@"精选",@"分类",@"淘讯",@"我的", nil];
+    self.arrbttitle = [[NSMutableArray alloc]initWithObjects:@"精选",@"分类",@"购物车",@"我的", nil];
     self.colornomo = [UIColor grayColor];
     
     self.colorSelect = [UIColor colorWithHexString:@"#faa159"];

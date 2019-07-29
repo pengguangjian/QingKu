@@ -66,7 +66,7 @@
 {
     ///默认数据
     _arrItems = [NSMutableArray new];
-    NSArray *arrtemp =  [NSMutableArray arrayWithObjects:@"精选",@"最新",@"海淘",@"直邮",@"9.9包邮",@"9.9包邮", nil];
+    NSArray *arrtemp =  [NSMutableArray arrayWithObjects:@"精选",@"最新",@"海淘",@"直邮",@"9.9包邮", nil];
     for(int i = 0 ; i <arrtemp.count ;i++)
     {
         NSMutableDictionary *dic = [NSMutableDictionary new];
@@ -86,7 +86,12 @@
     
     _arrItemBt = [NSMutableArray new];
     NSArray *arrtitle = _arrItems;
-    float fwidth = view.width/5.5;
+    float ftempnum = arrtitle.count;
+    if(ftempnum>5)
+    {
+        ftempnum = 5.5;
+    }
+    float fwidth = view.width/ftempnum;
     float fright = 0.0;
     for(int i = 0 ; i < arrtitle.count; i++)
     {
@@ -238,5 +243,18 @@
     }
     
 }
-
+///字符串数组
+-(void)bindListData:(NSArray *)arrlist
+{
+    NSMutableArray *arrtemp = [NSMutableArray new];
+    for(NSString *str in arrlist)
+    {
+        [arrtemp addObject:@{@"name":str}];
+    }
+    _arrItems = arrtemp;
+    CGRect rect =  _viewItem.frame;
+    [_viewItem removeFromSuperview];
+    _viewItem = [self drawitem:rect];
+    [self addSubview:_viewItem];
+}
 @end

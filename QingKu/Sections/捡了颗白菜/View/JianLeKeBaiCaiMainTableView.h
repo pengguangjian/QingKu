@@ -19,8 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface JianLeKeBaiCaiMainTableView : UITableView <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic,weak)id<JianLeKeBaiCaiMainTableViewDelegate>listDelegate;
 
-//@property (nonatomic,assign) CGPoint contentOffsetp;
-
 -(JianLeKeBaiCaiMainTableView * )initWithFrame:(CGRect)frame andtype:(NSString *)type;
 
 @end

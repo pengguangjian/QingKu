@@ -41,6 +41,26 @@
 		7708FB0622C71010005DDA31 /* GouWuCheMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0522C71010005DDA31 /* GouWuCheMainViewController.m */; };
 		7708FB0922C71026005DDA31 /* FenLeiMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0822C71026005DDA31 /* FenLeiMainViewController.m */; };
 		7708FB0C22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FB0B22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m */; };
+		7745F62322EE867D00CCB4AD /* FenLeiMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F62222EE867D00CCB4AD /* FenLeiMainView.m */; };
+		7745F62622EE8BB000CCB4AD /* FenLeiMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F62522EE8BB000CCB4AD /* FenLeiMainTableViewCell.m */; };
+		7745F62922EE934000CCB4AD /* FenLeiMainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F62822EE934000CCB4AD /* FenLeiMainCollectionViewCell.m */; };
+		7745F62C22EE9DC600CCB4AD /* GouWuCheMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F62B22EE9DC600CCB4AD /* GouWuCheMainTableView.m */; };
+		7745F62F22EEA1A700CCB4AD /* GouWuCheMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F62E22EEA1A700CCB4AD /* GouWuCheMainTableViewCell.m */; };
+		7745F63822EEC49B00CCB4AD /* FenLeiSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F63722EEC49B00CCB4AD /* FenLeiSearchViewController.m */; };
+		7745F63B22EEC55000CCB4AD /* FenLeiSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F63A22EEC55000CCB4AD /* FenLeiSearchView.m */; };
+		7745F63E22EEC7CD00CCB4AD /* FenLeiSearchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F63D22EEC7CD00CCB4AD /* FenLeiSearchTableView.m */; };
+		7745F64122EEC89000CCB4AD /* FenLeiSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F64022EEC89000CCB4AD /* FenLeiSearchTableViewCell.m */; };
+		7745F64422EECB6800CCB4AD /* back_click@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745F64222EECB6800CCB4AD /* back_click@3x.png */; };
+		7745F64522EECB6800CCB4AD /* back_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745F64322EECB6800CCB4AD /* back_click@2x.png */; };
+		7745F64822EECB9A00CCB4AD /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745F64622EECB9900CCB4AD /* back@2x.png */; };
+		7745F64922EECB9A00CCB4AD /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745F64722EECB9A00CCB4AD /* back@3x.png */; };
+		7745F65122EECD1F00CCB4AD /* GoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F65022EECD1F00CCB4AD /* GoodsDetailViewController.m */; };
+		7745F65422EECD2F00CCB4AD /* GoodsDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F65322EECD2F00CCB4AD /* GoodsDetailView.m */; };
+		7745F65722EED84000CCB4AD /* MDBwebVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F65522EED84000CCB4AD /* MDBwebVIew.m */; };
+		7745F65E22EED88600CCB4AD /* News_Picture_Save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745F65922EED88600CCB4AD /* News_Picture_Save@2x.png */; };
+		7745F65F22EED88600CCB4AD /* ImageZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F65A22EED88600CCB4AD /* ImageZoomScrollView.m */; };
+		7745F66022EED88600CCB4AD /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F65C22EED88600CCB4AD /* ImageScrollView.m */; };
+		7745F66322EED9F900CCB4AD /* MDB_UserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F66222EED9F900CCB4AD /* MDB_UserDefault.m */; };
 		776ABA8522EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 776ABA8422EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m */; };
 		776ABA8822EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 776ABA8722EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.m */; };
 		776ABA8B22EAB62F007E8848 /* LJDynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 776ABA8A22EAB62F007E8848 /* LJDynamicItem.m */; };
@@ -114,6 +134,41 @@
 		7708FB0B22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainViewController.m; sourceTree = "<group>"; };
 		7708FB0D22C7120C005DDA31 /* QingKuPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QingKuPrefixHeader.pch; sourceTree = "<group>"; };
 		7708FB0E22C71387005DDA31 /* PublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		7745F62122EE867D00CCB4AD /* FenLeiMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiMainView.h; sourceTree = "<group>"; };
+		7745F62222EE867D00CCB4AD /* FenLeiMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiMainView.m; sourceTree = "<group>"; };
+		7745F62422EE8BB000CCB4AD /* FenLeiMainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiMainTableViewCell.h; sourceTree = "<group>"; };
+		7745F62522EE8BB000CCB4AD /* FenLeiMainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiMainTableViewCell.m; sourceTree = "<group>"; };
+		7745F62722EE934000CCB4AD /* FenLeiMainCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiMainCollectionViewCell.h; sourceTree = "<group>"; };
+		7745F62822EE934000CCB4AD /* FenLeiMainCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiMainCollectionViewCell.m; sourceTree = "<group>"; };
+		7745F62A22EE9DC600CCB4AD /* GouWuCheMainTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GouWuCheMainTableView.h; sourceTree = "<group>"; };
+		7745F62B22EE9DC600CCB4AD /* GouWuCheMainTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GouWuCheMainTableView.m; sourceTree = "<group>"; };
+		7745F62D22EEA1A700CCB4AD /* GouWuCheMainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GouWuCheMainTableViewCell.h; sourceTree = "<group>"; };
+		7745F62E22EEA1A700CCB4AD /* GouWuCheMainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GouWuCheMainTableViewCell.m; sourceTree = "<group>"; };
+		7745F63622EEC49B00CCB4AD /* FenLeiSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiSearchViewController.h; sourceTree = "<group>"; };
+		7745F63722EEC49B00CCB4AD /* FenLeiSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiSearchViewController.m; sourceTree = "<group>"; };
+		7745F63922EEC55000CCB4AD /* FenLeiSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiSearchView.h; sourceTree = "<group>"; };
+		7745F63A22EEC55000CCB4AD /* FenLeiSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiSearchView.m; sourceTree = "<group>"; };
+		7745F63C22EEC7CD00CCB4AD /* FenLeiSearchTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiSearchTableView.h; sourceTree = "<group>"; };
+		7745F63D22EEC7CD00CCB4AD /* FenLeiSearchTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiSearchTableView.m; sourceTree = "<group>"; };
+		7745F63F22EEC89000CCB4AD /* FenLeiSearchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiSearchTableViewCell.h; sourceTree = "<group>"; };
+		7745F64022EEC89000CCB4AD /* FenLeiSearchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiSearchTableViewCell.m; sourceTree = "<group>"; };
+		7745F64222EECB6800CCB4AD /* back_click@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_click@3x.png"; sourceTree = "<group>"; };
+		7745F64322EECB6800CCB4AD /* back_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_click@2x.png"; sourceTree = "<group>"; };
+		7745F64622EECB9900CCB4AD /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		7745F64722EECB9A00CCB4AD /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		7745F64F22EECD1F00CCB4AD /* GoodsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsDetailViewController.h; sourceTree = "<group>"; };
+		7745F65022EECD1F00CCB4AD /* GoodsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailViewController.m; sourceTree = "<group>"; };
+		7745F65222EECD2F00CCB4AD /* GoodsDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsDetailView.h; sourceTree = "<group>"; };
+		7745F65322EECD2F00CCB4AD /* GoodsDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailView.m; sourceTree = "<group>"; };
+		7745F65522EED84000CCB4AD /* MDBwebVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBwebVIew.m; sourceTree = "<group>"; };
+		7745F65622EED84000CCB4AD /* MDBwebVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBwebVIew.h; sourceTree = "<group>"; };
+		7745F65922EED88600CCB4AD /* News_Picture_Save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Picture_Save@2x.png"; sourceTree = "<group>"; };
+		7745F65A22EED88600CCB4AD /* ImageZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageZoomScrollView.m; sourceTree = "<group>"; };
+		7745F65B22EED88600CCB4AD /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		7745F65C22EED88600CCB4AD /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+		7745F65D22EED88600CCB4AD /* ImageZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageZoomScrollView.h; sourceTree = "<group>"; };
+		7745F66122EED9F900CCB4AD /* MDB_UserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDB_UserDefault.h; sourceTree = "<group>"; };
+		7745F66222EED9F900CCB4AD /* MDB_UserDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDB_UserDefault.m; sourceTree = "<group>"; };
 		776ABA8322EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainTableView.h; sourceTree = "<group>"; };
 		776ABA8422EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainTableView.m; sourceTree = "<group>"; };
 		776ABA8622EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainTableViewCell.h; sourceTree = "<group>"; };
@@ -203,6 +258,7 @@
 		7708FA5422C704E3005DDA31 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				7745F64A22EECC7B00CCB4AD /* 商品详情 */,
 				7708FB0022C70FD3005DDA31 /* 我的 */,
 				7708FAFF22C70FCB005DDA31 /* 购物车 */,
 				7708FAFE22C70FC1005DDA31 /* 分类 */,
@@ -252,6 +308,10 @@
 		7708FA5922C7059A005DDA31 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				7745F64622EECB9900CCB4AD /* back@2x.png */,
+				7745F64722EECB9A00CCB4AD /* back@3x.png */,
+				7745F64322EECB6800CCB4AD /* back_click@2x.png */,
+				7745F64222EECB6800CCB4AD /* back_click@3x.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -315,6 +375,9 @@
 		7708FAEF22C70E6D005DDA31 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				7745F65822EED88600CCB4AD /* ImageBrowser */,
+				7745F65622EED84000CCB4AD /* MDBwebVIew.h */,
+				7745F65522EED84000CCB4AD /* MDBwebVIew.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -328,6 +391,8 @@
 				7708FAF722C70F5E005DDA31 /* RootTableViewController.m */,
 				7708FAFA22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.h */,
 				7708FAFB22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m */,
+				7745F66122EED9F900CCB4AD /* MDB_UserDefault.h */,
+				7745F66222EED9F900CCB4AD /* MDB_UserDefault.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -346,6 +411,7 @@
 		7708FAFE22C70FC1005DDA31 /* 分类 */ = {
 			isa = PBXGroup;
 			children = (
+				7745F63022EEA8A300CCB4AD /* SubModules */,
 				777D6CF322C99B41008370F8 /* Controller */,
 				777D6CF222C99B41008370F8 /* DataController */,
 				777D6CF022C99B41008370F8 /* Model */,
@@ -374,6 +440,117 @@
 				777D6CE822C99AE0008370F8 /* View */,
 			);
 			path = "我的";
+			sourceTree = "<group>";
+		};
+		7745F63022EEA8A300CCB4AD /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+				7745F63122EEC45200CCB4AD /* 分类搜索 */,
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		7745F63122EEC45200CCB4AD /* 分类搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				7745F63222EEC45D00CCB4AD /* Controller */,
+				7745F63522EEC47B00CCB4AD /* View */,
+				7745F63422EEC47400CCB4AD /* Model */,
+				7745F63322EEC46500CCB4AD /* DataController */,
+			);
+			path = "分类搜索";
+			sourceTree = "<group>";
+		};
+		7745F63222EEC45D00CCB4AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7745F63622EEC49B00CCB4AD /* FenLeiSearchViewController.h */,
+				7745F63722EEC49B00CCB4AD /* FenLeiSearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7745F63322EEC46500CCB4AD /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		7745F63422EEC47400CCB4AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7745F63522EEC47B00CCB4AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7745F63922EEC55000CCB4AD /* FenLeiSearchView.h */,
+				7745F63A22EEC55000CCB4AD /* FenLeiSearchView.m */,
+				7745F63C22EEC7CD00CCB4AD /* FenLeiSearchTableView.h */,
+				7745F63D22EEC7CD00CCB4AD /* FenLeiSearchTableView.m */,
+				7745F63F22EEC89000CCB4AD /* FenLeiSearchTableViewCell.h */,
+				7745F64022EEC89000CCB4AD /* FenLeiSearchTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7745F64A22EECC7B00CCB4AD /* 商品详情 */ = {
+			isa = PBXGroup;
+			children = (
+				7745F64E22EECCBC00CCB4AD /* View */,
+				7745F64D22EECCB600CCB4AD /* Model */,
+				7745F64C22EECCAF00CCB4AD /* DataController */,
+				7745F64B22EECCA600CCB4AD /* Controller */,
+			);
+			path = "商品详情";
+			sourceTree = "<group>";
+		};
+		7745F64B22EECCA600CCB4AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7745F64F22EECD1F00CCB4AD /* GoodsDetailViewController.h */,
+				7745F65022EECD1F00CCB4AD /* GoodsDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7745F64C22EECCAF00CCB4AD /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		7745F64D22EECCB600CCB4AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7745F64E22EECCBC00CCB4AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7745F65222EECD2F00CCB4AD /* GoodsDetailView.h */,
+				7745F65322EECD2F00CCB4AD /* GoodsDetailView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7745F65822EED88600CCB4AD /* ImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				7745F65922EED88600CCB4AD /* News_Picture_Save@2x.png */,
+				7745F65A22EED88600CCB4AD /* ImageZoomScrollView.m */,
+				7745F65B22EED88600CCB4AD /* ImageScrollView.h */,
+				7745F65C22EED88600CCB4AD /* ImageScrollView.m */,
+				7745F65D22EED88600CCB4AD /* ImageZoomScrollView.h */,
+			);
+			name = ImageBrowser;
+			path = "../../../../../未命名文件夹 3/Meidebi/Meidebi/UIView/ImageBrowser";
 			sourceTree = "<group>";
 		};
 		777D6CE822C99AE0008370F8 /* View */ = {
@@ -425,6 +602,10 @@
 		777D6CEE22C99B38008370F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7745F62A22EE9DC600CCB4AD /* GouWuCheMainTableView.h */,
+				7745F62B22EE9DC600CCB4AD /* GouWuCheMainTableView.m */,
+				7745F62D22EEA1A700CCB4AD /* GouWuCheMainTableViewCell.h */,
+				7745F62E22EEA1A700CCB4AD /* GouWuCheMainTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -446,6 +627,12 @@
 		777D6CF122C99B41008370F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7745F62122EE867D00CCB4AD /* FenLeiMainView.h */,
+				7745F62222EE867D00CCB4AD /* FenLeiMainView.m */,
+				7745F62422EE8BB000CCB4AD /* FenLeiMainTableViewCell.h */,
+				7745F62522EE8BB000CCB4AD /* FenLeiMainTableViewCell.m */,
+				7745F62722EE934000CCB4AD /* FenLeiMainCollectionViewCell.h */,
+				7745F62822EE934000CCB4AD /* FenLeiMainCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -577,8 +764,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7708FA4B22C6F59C005DDA31 /* LaunchScreen.storyboard in Resources */,
+				7745F64422EECB6800CCB4AD /* back_click@3x.png in Resources */,
+				7745F65E22EED88600CCB4AD /* News_Picture_Save@2x.png in Resources */,
+				7745F64922EECB9A00CCB4AD /* back@3x.png in Resources */,
 				7708FADA22C70CDD005DDA31 /* ShareSDK in Resources */,
+				7745F64822EECB9A00CCB4AD /* back@2x.png in Resources */,
 				7708FA4822C6F59C005DDA31 /* Assets.xcassets in Resources */,
+				7745F64522EECB6800CCB4AD /* back_click@2x.png in Resources */,
 				7708FA4622C6F597005DDA31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,32 +825,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				7708FAF222C70E77005DDA31 /* UIView+Additions.m in Sources */,
+				7745F66022EED88600CCB4AD /* ImageScrollView.m in Sources */,
 				7708FAA422C707F5005DDA31 /* UINavigationController+APSafeTransition.m in Sources */,
 				777C4C9222EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m in Sources */,
 				7708FAA922C707F5005DDA31 /* UIView+UIViewExt.m in Sources */,
+				7745F65122EECD1F00CCB4AD /* GoodsDetailViewController.m in Sources */,
 				7708FB0322C70FF9005DDA31 /* MyMainViewController.m in Sources */,
 				7708FB0622C71010005DDA31 /* GouWuCheMainViewController.m in Sources */,
+				7745F65722EED84000CCB4AD /* MDBwebVIew.m in Sources */,
 				7708FAA822C707F5005DDA31 /* UINavigationBar+FixMargin.m in Sources */,
 				77DE4A5022E9B2C60062E98C /* JianLeKeBaiCaiMainView.m in Sources */,
 				776ABA8522EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m in Sources */,
+				7745F62C22EE9DC600CCB4AD /* GouWuCheMainTableView.m in Sources */,
 				7708FAE022C70D70005DDA31 /* HTTPManager.m in Sources */,
+				7745F62F22EEA1A700CCB4AD /* GouWuCheMainTableViewCell.m in Sources */,
 				7708FB0C22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m in Sources */,
 				7708FAEE22C70E1F005DDA31 /* BDKNotifyHUD.m in Sources */,
 				7708FAAC22C707F5005DDA31 /* UITabBar+badge.m in Sources */,
 				7708FAE822C70DC1005DDA31 /* GMDCircleLoader.m in Sources */,
 				7708FAEB22C70DEF005DDA31 /* MDB_ShareExstensionUserDefault.m in Sources */,
+				7745F62622EE8BB000CCB4AD /* FenLeiMainTableViewCell.m in Sources */,
 				7708FB0922C71026005DDA31 /* FenLeiMainViewController.m in Sources */,
 				776ABA8822EA93A5007E8848 /* JianLeKeBaiCaiMainTableViewCell.m in Sources */,
 				7708FAFC22C70F9D005DDA31 /* PGGTabBarViewControllerConfig.m in Sources */,
 				7708FAA622C707F5005DDA31 /* UITextView+Placeholder.m in Sources */,
 				777C4C9522EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.m in Sources */,
+				7745F63B22EEC55000CCB4AD /* FenLeiSearchView.m in Sources */,
 				7708FA4322C6F597005DDA31 /* ViewController.m in Sources */,
+				7745F62322EE867D00CCB4AD /* FenLeiMainView.m in Sources */,
 				7708FAAB22C707F5005DDA31 /* UIImage+ExtensionScal.m in Sources */,
 				7708FA4E22C6F59C005DDA31 /* main.m in Sources */,
+				7745F63822EEC49B00CCB4AD /* FenLeiSearchViewController.m in Sources */,
+				7745F64122EEC89000CCB4AD /* FenLeiSearchTableViewCell.m in Sources */,
 				7708FAA722C707F5005DDA31 /* UIColor+Hex.m in Sources */,
 				7708FAF822C70F5E005DDA31 /* RootViewController.m in Sources */,
 				7708FAF922C70F5E005DDA31 /* RootTableViewController.m in Sources */,
+				7745F66322EED9F900CCB4AD /* MDB_UserDefault.m in Sources */,
 				776ABA8B22EAB62F007E8848 /* LJDynamicItem.m in Sources */,
+				7745F62922EE934000CCB4AD /* FenLeiMainCollectionViewCell.m in Sources */,
+				7745F65422EECD2F00CCB4AD /* GoodsDetailView.m in Sources */,
+				7745F65F22EED88600CCB4AD /* ImageZoomScrollView.m in Sources */,
+				7745F63E22EEC7CD00CCB4AD /* FenLeiSearchTableView.m in Sources */,
 				7708FA4022C6F597005DDA31 /* AppDelegate.m in Sources */,
 				7708FAE422C70D88005DDA31 /* MDB_Imagemanager.m in Sources */,
 				7708FAAA22C707F5005DDA31 /* NSString+extend.m in Sources */,

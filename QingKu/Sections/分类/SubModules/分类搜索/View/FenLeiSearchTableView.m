@@ -1,25 +1,21 @@
 //
-//  JianLeKeBaiCaiMainTableView.m
+//  FenLeiSearchTableView.m
 //  QingKu
 //
-//  Created by mdb-losaic on 2019/7/26.
+//  Created by mdb-losaic on 2019/7/29.
 //  Copyright © 2019 mcxzfa. All rights reserved.
 //
 
-#import "JianLeKeBaiCaiMainTableView.h"
-
-#import "JianLeKeBaiCaiMainTableViewCell.h"
+#import "FenLeiSearchTableView.h"
+#import "FenLeiSearchTableViewCell.h"
 
 #import "GoodsDetailViewController.h"
 
-@interface JianLeKeBaiCaiMainTableView () 
-{
-    
-    
-}
+@interface FenLeiSearchTableView () <UITableViewDataSource,UITableViewDelegate>
+
 @end
 
-@implementation JianLeKeBaiCaiMainTableView
+@implementation FenLeiSearchTableView
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -28,14 +24,15 @@
     // Drawing code
 }
 */
--(JianLeKeBaiCaiMainTableView * )initWithFrame:(CGRect)frame andtype:(NSString *)type
+
+-(id)initWithFrame:(CGRect)frame andtype:(NSString *)type
 {
     if(self = [super initWithFrame:frame])
     {
         [self setDelegate:self];
         [self setDataSource:self];
-//        [self setSeparatorStyle:UITableViewCellSeparatorStyleNone];
-//        [self setBackgroundColor:[UIColor redColor]];
+        //        [self setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+        //        [self setBackgroundColor:[UIColor redColor]];
     }
     return self;
 }
@@ -49,11 +46,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *strcell = @"JianLeKeBaiCaiMainTableViewCell";
-    JianLeKeBaiCaiMainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:strcell];
+    static NSString *strcell = @"FenLeiSearchTableViewCell";
+    FenLeiSearchTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:strcell];
     if(!cell)
     {
-        cell = [[JianLeKeBaiCaiMainTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:strcell];
+        cell = [[FenLeiSearchTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:strcell];
     }
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     
@@ -69,12 +66,6 @@
     NSLog(@"%ld",indexPath.row);
     GoodsDetailViewController *gvc = [[GoodsDetailViewController alloc] init];
     [self.viewController.navigationController pushViewController:gvc animated:YES];
-}
-
--(void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-//    self.contentOffsetp = scrollView.contentOffset;
-    [self.listDelegate scrollViewDidScroll:scrollView];
 }
 
 @end

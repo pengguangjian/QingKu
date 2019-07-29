@@ -111,35 +111,7 @@ static CGFloat rubberBandDistance(CGFloat offset, CGFloat dimension) {
 #pragma mark - 滚动
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    /*
-    if(scrollView == scvback)
-    {
-        if(scrollView.contentOffset.y>=maxOffsetY)
-        {
-            [scrollView setContentOffset:CGPointMake(0, maxOffsetY) animated:NO];
-            [scvback setScrollEnabled:NO];
-            [jview.subItemView setScrollEnabled:YES];
-            subScrollEnabled = YES;
-            mainScrollEnabled = NO;
-            currentPanY = 0;
-        }
-
-//        NSLog(@"1111");
-    }
-    else
-    {
-        if(scrollView.contentOffset.y<=0)
-        {
-            [scrollView setContentOffset:CGPointMake(0, 0) animated:NO];
-            [scvback setScrollEnabled:YES];
-            [jview.subItemView setScrollEnabled:NO];
-            subScrollEnabled = NO;
-            mainScrollEnabled = YES;
-            currentPanY = 0;
-        }
-//        NSLog(@"2222");
-    }
-    */
+    
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {

@@ -18,14 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JianLeKeBaiCaiMainScrollView : UIView
 
-//@property (nonatomic,assign) CGPoint contentOffsetc;
-
 @property (nonatomic,retain) JianLeKeBaiCaiMainTableView *subItemView;
 
 @property(nonatomic,weak)id<JianLeKeBaiCaiMainScrollViewDelegate>scoDelegate;
-
-//-(void)setAllScrollEnabled:(BOOL)able;
-//-(void)setItemContOffset:(CGPoint)point;
 
 @end
 
