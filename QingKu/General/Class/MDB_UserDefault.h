@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 //提示
 +(void)showNotifyHUDwithtext:(NSString *)notify_str inView:(UIView *)view;
 
+//lb计算文本的宽和高
++(CGSize)countTextSize:(CGSize)size andtextfont:(UIFont *)font andtext:(NSString *)str;
+
 @end
 
 NS_ASSUME_NONNULL_END

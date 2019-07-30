@@ -10,6 +10,8 @@
 
 #import "MDBwebVIew.h"
 
+#import "XiaDanViewController.h"
+
 @interface GoodsDetailView ()<MDBwebDelegate>
 {
     UIScrollView *scvback;
@@ -280,6 +282,8 @@
     [btbuy setBackgroundColor:RGB(254, 110, 17)];
     [btbuy.layer setMasksToBounds:YES];
     [btbuy.layer setCornerRadius:2];
+    [btbuy setTag:1];
+    [btbuy addTarget:self action:@selector(bottonBuyAction:) forControlEvents:UIControlEventTouchUpInside];
     [view addSubview:btbuy];
     [btbuy mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.offset(8);
@@ -295,6 +299,8 @@
     [btaddcar setBackgroundColor:RGB(9, 186, 104)];
     [btaddcar.layer setMasksToBounds:YES];
     [btaddcar.layer setCornerRadius:2];
+    [btaddcar setTag:2];
+    [btaddcar addTarget:self action:@selector(bottonBuyAction:) forControlEvents:UIControlEventTouchUpInside];
     [view addSubview:btaddcar];
     [btaddcar mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.bottom.width.equalTo(btbuy);
@@ -316,6 +322,21 @@
     bt.titleEdgeInsets = UIEdgeInsetsMake(imgH+margin/2.0, -imgW, 0, 0);
 }
 
+
+#pragma mark - 加入购物车和购买
+-(void)bottonBuyAction:(UIButton *)sender
+{
+    
+    if(sender.tag == 1)
+    {///购买
+        XiaDanViewController *dvc = [[XiaDanViewController alloc] init];
+        [self.viewController.navigationController pushViewController:dvc animated:YES];
+    }
+    else if (sender.tag == 2)
+    {///加入购物车
+        
+    }
+}
 
 #pragma mark - MDBwebDelegate
 -(void)webViewDidFinishLoad:(float)h webview:(MDBwebVIew *)webView
