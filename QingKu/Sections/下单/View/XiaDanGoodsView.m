@@ -80,11 +80,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *strcell = @"DaiGouXiaDanGoodsTableViewCell";
-    DaiGouXiaDanGoodsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:strcell];
+    static NSString *strcell = @"XiaDanGoodsTableViewCell";
+    XiaDanGoodsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:strcell];
     if(!cell)
     {
-        cell = [[DaiGouXiaDanGoodsTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:strcell];
+        cell = [[XiaDanGoodsTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:strcell];
         
     }
     [cell setDelegate:self];

@@ -20,6 +20,12 @@ NS_ASSUME_NONNULL_BEGIN
 //lb计算文本的宽和高
 +(CGSize)countTextSize:(CGSize)size andtextfont:(UIFont *)font andtext:(NSString *)str;
 
+///设置一行显示不同字体 颜色
++(NSMutableAttributedString *)arrstring:(NSString *)str andstart:(int)istart andend:(int)length andfont:(UIFont *)font andcolor:(UIColor *)color;
+
+///为文字添加横线 icenter 1 中横线
++(NSMutableAttributedString *)arrstring:(NSString *)str andstart:(int)istart andend:(int)length andNSAttributedStringKey:(int)icenter;
+
 @end
 
 NS_ASSUME_NONNULL_END

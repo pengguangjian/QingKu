@@ -119,8 +119,8 @@ static NSString * const kTalkingDataAppKey = @"A45FA9434D9394605607829E81C93F4E"
 
 /**** 通用字体颜色 *****/
 
-#define RadMenuColor [UIColor colorWithRed:253.0/255.0 green:122.0/255.0 blue:15.0/255.0 alpha:1.0]//memu橘色
-#define RadDaoHangColor [UIColor colorWithRed:250.0/255.0 green:250.0/255.0 blue:250.0/255.0 alpha:1.0]//导航背景
+#define RadMenuColor [UIColor colorWithRed:6/255.0 green:195/255.0 blue:115/255.0 alpha:1.0]//memu橘色
+#define RadDaoHangColor [UIColor colorWithRed:6/255.0 green:195/255.0 blue:115/255.0 alpha:1.0]//导航背景
 #define RadDaoBiaoColor [UIColor colorWithRed:68.0/255.0 green:68.0/255.0 blue:68.0/255.0 alpha:1.0]//导航标签
 #define RadLineColor [UIColor colorWithRed:225.0/255.0 green:225.0/255.0 blue:225.0/255.0 alpha:1.0]//分割线
 

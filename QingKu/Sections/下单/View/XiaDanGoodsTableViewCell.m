@@ -9,7 +9,7 @@
 #import "XiaDanGoodsTableViewCell.h"
 #import "MDB_UserDefault.h"
 
-@interface DaiGouXiaDanGoodsTableViewCell ()
+@interface XiaDanGoodsTableViewCell ()
 {
     
     UIView *viewback;
@@ -142,10 +142,10 @@
         lbjiedan = [[UILabel alloc] init];
         [viewback addSubview:lbjiedan];
         [lbjiedan mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(imgvhead.mas_left).offset(5);
-            make.top.equalTo(imgvhead.mas_top).offset(5);
-            make.bottom.equalTo(imgvhead.mas_bottom).offset(-5);
-            make.right.equalTo(imgvhead.mas_right).offset(-5);
+            make.left.equalTo(self->imgvhead.mas_left).offset(5);
+            make.top.equalTo(self->imgvhead.mas_top).offset(5);
+            make.bottom.equalTo(self->imgvhead.mas_bottom).offset(-5);
+            make.right.equalTo(self->imgvhead.mas_right).offset(-5);
         }];
         [lbjiedan setBackgroundColor:RGBAlpha(0, 0, 0, 0.5)];
         [lbjiedan setText:@"已截单"];
@@ -160,9 +160,9 @@
         lbtitle = [[UILabel alloc] init];
         [viewback addSubview:lbtitle];
         [lbtitle mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(imgvhead.mas_right).offset(10);
-            make.top.equalTo(imgvhead).offset(-5);
-            make.right.equalTo(viewback).offset(-10);
+            make.left.equalTo(self->imgvhead.mas_right).offset(10);
+            make.top.equalTo(self->imgvhead).offset(-5);
+            make.right.equalTo(self->viewback).offset(-10);
             make.height.offset(36);
         }];
         [lbtitle setTextColor:RGB(30, 30, 30)];
@@ -173,8 +173,8 @@
         lbprice = [[UILabel alloc] init];
         [viewback addSubview:lbprice];
         [lbprice mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(lbtitle);
-            make.top.equalTo(lbtitle.mas_bottom).offset(3);
+            make.left.equalTo(self->lbtitle);
+            make.top.equalTo(self->lbtitle.mas_bottom).offset(3);
             make.height.offset(20);
         }];
         [lbprice setTextColor:RGB(243,93,0)];
@@ -185,8 +185,8 @@
         lbguige = [[UILabel alloc] init];
         [viewback addSubview:lbguige];
         [lbguige mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(lbtitle);
-            make.top.equalTo(lbprice.mas_bottom).offset(5);
+            make.left.equalTo(self->lbtitle);
+            make.top.equalTo(self->lbprice.mas_bottom).offset(5);
             make.width.offset(0);
             make.height.offset(20);
         }];
@@ -201,8 +201,8 @@
         [viewback addSubview:lbotherMoney];
         [lbotherMoney mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.offset(10);
-            make.right.equalTo(viewback.mas_right).offset(-10);
-            make.top.equalTo(imgvhead.mas_bottom).offset(10);
+            make.right.equalTo(self->viewback.mas_right).offset(-10);
+            make.top.equalTo(self->imgvhead.mas_bottom).offset(10);
             make.height.offset(40);
         }];
         [lbotherMoney setNumberOfLines:2];
@@ -215,9 +215,9 @@
         [viewline setBackgroundColor:RGB(231, 231, 231)];
         [viewback addSubview:viewline];
         [viewline mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.right.equalTo(viewback);
+            make.left.right.equalTo(self->viewback);
             make.height.offset(1);
-            make.bottom.equalTo(viewback);
+            make.bottom.equalTo(self->viewback);
         }];
         
         
@@ -248,10 +248,10 @@
         
         [self drawNumberSelect:CGRectMake(0, 0, 50, 26*kScale)];
         [viewnumber mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(lbprice.mas_top).offset(3*kScale);
-            make.right.equalTo(lbtitle.mas_right);
+            make.top.equalTo(self->lbprice.mas_top).offset(3*kScale);
+            make.right.equalTo(self->lbtitle.mas_right);
             make.height.offset(26*kScale);
-            make.width.offset(viewnumber.width);
+            make.width.offset(self->viewnumber.width);
         }];
         
         
@@ -464,6 +464,17 @@
     }
     */
 }
+
+-(void)delNumberAction
+{
+    
+}
+
+-(void)addNumberAction
+{
+    
+}
+
 /*
 -(void)delNumberAction
 {

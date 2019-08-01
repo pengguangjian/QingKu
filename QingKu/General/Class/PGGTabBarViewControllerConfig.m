@@ -24,6 +24,8 @@
     }
     [super pushViewController:viewController animated:animated];
     
+    
+    
     // 修改tabBra的frame
     CGRect frame = self.tabBarController.tabBar.frame;
     frame.origin.y = [UIScreen mainScreen].bounds.size.height - frame.size.height;
@@ -64,9 +66,17 @@
     self.arrbttitle = [[NSMutableArray alloc]initWithObjects:@"精选",@"分类",@"购物车",@"我的", nil];
     self.colornomo = [UIColor grayColor];
     
-    self.colorSelect = [UIColor colorWithHexString:@"#faa159"];
+    self.colorSelect = RadMenuColor;
     self.arrSelectimg = [[NSMutableArray alloc]initWithObjects:@"home_select",@"yijiandaigou_select",@"original_select",@"user_select", nil];
     self.arrnomimg = [[NSMutableArray alloc]initWithObjects:@"home_normal",@"yijiandaigou_normal",@"original_normal",@"user_normal", nil];
+}
+
+-(NSDictionary *)navabaTitleColor
+{
+    NSDictionary *textAttributes = @{
+                                     NSFontAttributeName : [UIFont systemFontOfSize:28.0f],
+                                     NSForegroundColorAttributeName : [UIColor whiteColor]};
+    return textAttributes;
 }
 
 - (NSArray *)PGGviewControllers {
@@ -80,16 +90,21 @@
     ///这里占用了部分cup20%
     PGGBaseNavigationController *firstNavigationController = [[PGGBaseNavigationController alloc]
                                                               initWithRootViewController:firstController];
+//    firstNavigationController.navigationBar.barTintColor = RadDaoHangColor;
     
     PGGBaseNavigationController *secondNavigationController = [[PGGBaseNavigationController alloc]
                                                                initWithRootViewController:secondController];
+//    secondNavigationController.navigationBar.barTintColor = RadDaoHangColor;
+    
     
     PGGBaseNavigationController *thirdNavigationController = [[PGGBaseNavigationController alloc]
                                                               initWithRootViewController:thirdController];
+//    thirdNavigationController.navigationBar.barTintColor = RadDaoHangColor;
     
     
     PGGBaseNavigationController *fourthNavigationController = [[PGGBaseNavigationController alloc]
                                                                initWithRootViewController:fourthController];
+//    fourthNavigationController.navigationBar.barTintColor = RadDaoHangColor;
     
     
     NSArray *viewControllers = @[

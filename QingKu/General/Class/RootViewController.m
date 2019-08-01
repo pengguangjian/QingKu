@@ -28,11 +28,11 @@
 //    }
 //#endif  // #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
     self.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18],NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#666666"]}] ;
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18],NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#ffffff"]}] ;
     if (self.navigationController.viewControllers.count>1) {
         [self setNavBarBackBtn];
     }
-    
+    self.navigationController.navigationBar.barTintColor = RadDaoHangColor;
     
     
     

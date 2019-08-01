@@ -254,7 +254,8 @@
 #pragma mark - 选中商品
 -(void)selectAction
 {
-    
+    ///
+    [btselect setImage:[UIImage imageNamed:@"gouwuche_item_select"] forState:UIControlStateNormal];
 }
 ///点击规格
 -(void)guigeAction

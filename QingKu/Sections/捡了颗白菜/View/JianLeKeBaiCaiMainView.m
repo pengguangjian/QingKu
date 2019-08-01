@@ -12,7 +12,10 @@
 
 #import "LJDynamicItem.h"
 
-#define maxOffsetY kMainScreenW*1.2
+#import "NewPeopleBuyTableViewController.h"
+
+//#define maxOffsetY kMainScreenW*1.2
+#define maxOffsetY 300
 #define tabviewHeight kMainScreenH-kTopHeight-kTabBarHeight
 
 
@@ -83,14 +86,13 @@ static CGFloat rubberBandDistance(CGFloat offset, CGFloat dimension) {
     
     ///
     UIView *viewheader = [[UIView alloc] init];
-    [viewheader setBackgroundColor:[UIColor brownColor]];
+    [viewheader setBackgroundColor:[UIColor whiteColor]];
     [scvback addSubview:viewheader];
     [viewheader mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.top.equalTo(self->scvback);
         make.width.offset(kMainScreenW);
-        make.height.offset(kMainScreenW*1.2);
     }];
-    
+    [self drawHeaderView:viewheader];
     
     ///
     jview = [[JianLeKeBaiCaiMainScrollView alloc] init];
@@ -106,6 +108,90 @@ static CGFloat rubberBandDistance(CGFloat offset, CGFloat dimension) {
         make.bottom.equalTo(self->jview.mas_bottom);
     }];
     
+}
+
+-(void)drawHeaderView:(UIView *)view
+{
+    
+    UIView *viewsbuy = [self drawzhiboitem:CGRectMake(0, 120, kMainScreenW/2.0, 70) andtitle:@"分享购买" andcont:@"最高获40%奖励金" andimage:@"home_Share_item0"];
+    [view addSubview:viewsbuy];
+    
+    UIView *viewshare = [self drawzhiboitem:CGRectMake(kMainScreenW/2.0, viewsbuy.top, viewsbuy.width, viewsbuy.height) andtitle:@"邀请好友" andcont:@"送免邮券/优惠券" andimage:@"home_Share_item1"];
+    [view addSubview:viewshare];
+    
+    UIView *viewline = [[UIView alloc] initWithFrame:CGRectMake(kMainScreenW/2.0-1, viewsbuy.top+8, 1.5, viewsbuy.height-16)];
+    [viewline setBackgroundColor:RGB(234, 234, 234)];
+    [view addSubview:viewline];
+    
+    UIView *viewline1 = [[UIView alloc] initWithFrame:CGRectMake(0, viewsbuy.bottom+10, kMainScreenW, 10)];
+    [viewline1 setBackgroundColor:RGB(240, 240, 240)];
+    [view addSubview:viewline1];
+    
+    UIView *viewxinren = [[UIView alloc] initWithFrame:CGRectMake(0, viewline1.bottom, viewline1.width, 80)];
+    [viewxinren setBackgroundColor:[UIColor whiteColor]];
+    [view addSubview:viewxinren];
+    
+    UIImageView *imgvxinren = [[UIImageView alloc] initWithFrame:CGRectMake(15, 10, viewxinren.width-30, viewxinren.height-20)];
+    [imgvxinren setBackgroundColor:[UIColor grayColor]];
+    [viewxinren addSubview:imgvxinren];
+    [imgvxinren setUserInteractionEnabled:YES];
+    UITapGestureRecognizer *tapxinren = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(xinrenHLAction)];
+    [imgvxinren addGestureRecognizer:tapxinren];
+    
+    UIView *viewline2 = [[UIView alloc] initWithFrame:CGRectMake(0, viewxinren.bottom, kMainScreenW, 10)];
+    [viewline2 setBackgroundColor:RGB(240, 240, 240)];
+    [view addSubview:viewline2];
+    
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(viewline2.mas_bottom);
+    }];
+    
+}
+
+-(UIView *)drawzhiboitem:(CGRect)rect andtitle:(NSString *)strtitle andcont:(NSString *)strcontent andimage:(NSString *)strimage
+{
+    UIView *view = [[UIView alloc] initWithFrame:rect];
+    [view setBackgroundColor:[UIColor whiteColor]];
+    
+    UIImageView *imgv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, view.height-30, view.height-30)];
+    [imgv setCenter:CGPointMake(0, view.height/2.0)];
+    [imgv setRight:view.width-10];
+    [imgv setContentMode:UIViewContentModeScaleAspectFit];
+    [imgv setImage:[UIImage imageNamed:strimage]];
+//    [imgv setBackgroundColor:[UIColor grayColor]];
+    [view addSubview:imgv];
+    
+    
+    UILabel *lbcont = [[UILabel alloc] initWithFrame:CGRectMake(15, view.height/2.0, imgv.left-15, 22)];
+    [lbcont setText:strcontent];
+    [lbcont setTextColor:RGB(255, 255, 255)];
+    [lbcont setTextAlignment:NSTextAlignmentCenter];
+    [lbcont setFont:[UIFont systemFontOfSize:11]];
+    [lbcont sizeToFit];
+    [lbcont setHeight:22];
+    [lbcont setWidth:lbcont.width+8];
+    [lbcont.layer setMasksToBounds:YES];
+    [lbcont.layer setCornerRadius:2];
+    [lbcont setBackgroundColor:RadMenuColor];
+    [view addSubview:lbcont];
+    
+    
+    UILabel *lbtitle = [[UILabel alloc] initWithFrame:CGRectMake(lbcont.left, view.height/2.0-25, lbcont.width, 25)];
+    [lbtitle setText:strtitle];
+    [lbtitle setTextColor:RGB(20, 20, 20)];
+    [lbtitle setTextAlignment:NSTextAlignmentLeft];
+    [lbtitle setFont:[UIFont systemFontOfSize:14]];
+    [view addSubview:lbtitle];
+    
+    
+    return view;
+}
+
+#pragma mark - 新人送豪礼
+-(void)xinrenHLAction
+{
+    NewPeopleBuyTableViewController *nvc = [[NewPeopleBuyTableViewController alloc] init];
+    [self.viewController.navigationController pushViewController:nvc animated:YES];
 }
 
 #pragma mark - 滚动

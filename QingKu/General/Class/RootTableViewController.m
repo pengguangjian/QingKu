@@ -22,7 +22,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18],
-                                                                      NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#666666"]}] ;
+                                                                      NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#ffffff"]}] ;
     if (self.navigationController.viewControllers.count>1) {
         [self setNavBarBackBtn];
     }
@@ -34,6 +34,7 @@
     self.tableView.estimatedRowHeight = 0;
     self.tableView.estimatedSectionFooterHeight = 0;
     self.tableView.estimatedSectionHeaderHeight = 0;
+    self.navigationController.navigationBar.barTintColor = RadDaoHangColor;
 }
 
 - (void)viewWillAppear:(BOOL)animated{

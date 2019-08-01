@@ -89,7 +89,6 @@
     {
         UIImageView *imgvadd = [[UIImageView alloc] initWithFrame:CGRectMake(15, 17, 15, 15)];
         [imgvadd setImage:[UIImage imageNamed:@"dingdan_address"]];
-        [imgvadd setBackgroundColor:[UIColor grayColor]];
         [view addSubview:imgvadd];
         
         UILabel *lbtext = [[UILabel alloc] initWithFrame:CGRectMake(imgvadd.right+8, imgvadd.top-5, 150, 25)];
@@ -127,10 +126,9 @@
     }
     
     UIImageView *imgvnext= [[UIImageView alloc] initWithFrame:CGRectMake(view.width-25, 15, 15, 15)];
-    [imgvnext setImage:[UIImage imageNamed:@"dingdan_address_next"]];
+    [imgvnext setImage:[UIImage imageNamed:@"next_next_graw"]];
     [imgvnext setCenter:CGPointMake(0, view.height/2.0)];
     [imgvnext setRight:view.width-10];
-    [imgvnext setBackgroundColor:[UIColor grayColor]];
     [view addSubview:imgvnext];
     
     UIView *viewlin = [[UIView alloc] initWithFrame:CGRectMake(0, view.height-1,view.width , 1)];
@@ -251,8 +249,7 @@
     
     
     UIImageView *imgvnext=[[UIImageView alloc] initWithFrame:CGRectMake(lbyouhuimoney.right+5, (view.height-15)/2.0, 15, 15)];
-    [imgvnext setImage:[UIImage imageNamed:@"wodejiangli_next"]];
-    [imgvnext setBackgroundColor:[UIColor grayColor]];
+    [imgvnext setImage:[UIImage imageNamed:@"next_next_graw"]];
     [view addSubview:imgvnext];
     
     return view;

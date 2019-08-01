@@ -57,5 +57,47 @@ static BOOL kIsRightInit = NO;
     return msize;
 }
 
+///设置一行显示不同字体 颜色
++(NSMutableAttributedString *)arrstring:(NSString *)str andstart:(int)istart andend:(int)length andfont:(UIFont *)font andcolor:(UIColor *)color
+{
+    NSMutableAttributedString *noteStr = [[NSMutableAttributedString alloc]initWithString:str];
+    @try {
+        [noteStr addAttribute:NSFontAttributeName value:font range:NSMakeRange(istart, length)];
+        
+        [noteStr addAttribute:NSForegroundColorAttributeName value:color range:NSMakeRange(istart, length)];
+        
+    } @catch (NSException *exception) {
+        
+    } @finally {
+        
+    }
+    
+    return noteStr;
+}
+
+///为文字添加横线 icenter 1 中横线
++(NSMutableAttributedString *)arrstring:(NSString *)str andstart:(int)istart andend:(int)length andNSAttributedStringKey:(int)icenter
+{
+    NSMutableAttributedString *noteStr = [[NSMutableAttributedString alloc]initWithString:str];
+    @try {
+        if(icenter==1)
+        {
+            [noteStr addAttribute:NSStrikethroughStyleAttributeName value:@(NSUnderlinePatternSolid | NSUnderlineStyleSingle) range:NSMakeRange(istart, length)];
+        }
+        else
+        {
+            [noteStr addAttribute:NSUnderlineStyleAttributeName value:@(NSUnderlinePatternSolid | NSUnderlineStyleSingle) range:NSMakeRange(istart, length)];
+        }
+        
+        
+    } @catch (NSException *exception) {
+        
+    } @finally {
+        
+    }
+    
+    return noteStr;
+}
+
 
 @end
