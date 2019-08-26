@@ -1,0 +1,20 @@
+{
+    "color": {
+        
+            "common_bg_color_1" : "#ff0000",
+            "common_bg_color_2" : "999999",
+            
+            
+            },
+    
+    "image": {
+    
+        "newstoolbar_collection_btn_select_image" : "base_action_bar_back.png",
+        
+    },
+    
+    "other": {
+
+    }
+}
+

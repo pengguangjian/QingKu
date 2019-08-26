@@ -8,7 +8,7 @@ target 'QingKu' do
   # Pods for QingKu
 
 	pod 'UMCCommon'
-    	pod 'UMCSecurityPlugins'
+  pod 'UMCSecurityPlugins'
 	pod 'UMCAnalytics'
 	pod 'UMCPush'
 	pod 'AFNetworking', '~> 3.0'
@@ -16,8 +16,9 @@ target 'QingKu' do
 	pod 'Qiniu', '~> 7.2.4'
 	pod 'Masonry', '~> 1.1.0'
 	pod 'IQKeyboardManager'
-  	pod 'YYKit', '~> 1.0.9'
+  pod 'YYKit', '~> 1.0.9'
 	pod 'MJRefresh'
 	pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'LEETheme'
 
 end

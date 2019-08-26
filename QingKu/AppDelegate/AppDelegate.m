@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "PGGTabBarViewControllerConfig.h"
+
+#import "MainHomeViewController.h"
+#import "ChangeLanguage.h"
 
 @interface AppDelegate ()
 
@@ -22,13 +24,43 @@
     if (@available(iOS 11.0, *)){
         [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
     }
-    ///111
     
-    PGGTabBarViewControllerConfig *pvc = [[PGGTabBarViewControllerConfig alloc] init];
-    [self.window setRootViewController:pvc];
+    [ChangeLanguage initUserLanguage];
+    [ChangeLanguage setUserLanguage:[ChangeLanguage userLanguage]];
+    
+    ///111
+    [self configTheme];
+    
+    MainHomeViewController *mvc = [[MainHomeViewController alloc] init];
+    self.nvc = [[UINavigationController alloc] initWithRootViewController:mvc];
+    
+    [self.window setRootViewController:self.nvc];
+    
+    
+    
+    
+    
     [[UITabBar appearance] setTranslucent:NO];
     [self.window setBackgroundColor:[UIColor whiteColor]];
     return YES;
+}
+
+/// 设置主题
+-(void)configTheme
+{
+    NSString *dayJsonPath = [[NSBundle mainBundle] pathForResource:@"themejson_day" ofType:@"json"];
+    
+    NSString *nightJsonPath = [[NSBundle mainBundle] pathForResource:@"themejson_night" ofType:@"json"];
+    
+    NSString *dayJson = [NSString stringWithContentsOfFile:dayJsonPath encoding:NSUTF8StringEncoding error:nil];
+    
+    NSString *nightJson = [NSString stringWithContentsOfFile:nightJsonPath encoding:NSUTF8StringEncoding error:nil];
+    
+    [LEETheme defaultTheme:@"day"];
+    
+    [LEETheme addThemeConfigWithJson:dayJson Tag:@"day" ResourcesPath:nil];
+    
+    [LEETheme addThemeConfigWithJson:nightJson Tag:@"night" ResourcesPath:nil];
 }
 
 

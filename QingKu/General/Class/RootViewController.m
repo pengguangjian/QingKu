@@ -36,6 +36,7 @@
     
     
     
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated{
@@ -76,6 +77,11 @@
         [view removeFromSuperview];
     }
     
+}
+
+-(void)changeRefAction
+{
+    NSLog(@"这个很好用");
 }
 
 @end

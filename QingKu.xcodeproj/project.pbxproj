@@ -81,6 +81,21 @@
 		77A8E88222F2C02800CAAF69 /* back_click@3x的.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A8E87E22F2C02800CAAF69 /* back_click@3x的.png */; };
 		77A8E88322F2C02800CAAF69 /* back_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A8E87F22F2C02800CAAF69 /* back_click@2x.png */; };
 		77DE4A5022E9B2C60062E98C /* JianLeKeBaiCaiMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE4A4F22E9B2C60062E98C /* JianLeKeBaiCaiMainView.m */; };
+		77F218B623138F8D00F75F2E /* VTContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218A223138F8D00F75F2E /* VTContentView.m */; };
+		77F218B723138F8D00F75F2E /* VTMagicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218A823138F8D00F75F2E /* VTMagicController.m */; };
+		77F218B823138F8D00F75F2E /* VTMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218AA23138F8D00F75F2E /* VTMenuBar.m */; };
+		77F218B923138F8D00F75F2E /* UIButton+VTMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218AD23138F8D00F75F2E /* UIButton+VTMagic.m */; };
+		77F218BA23138F8D00F75F2E /* UIScrollView+VTMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218AE23138F8D00F75F2E /* UIScrollView+VTMagic.m */; };
+		77F218BB23138F8D00F75F2E /* UIColor+VTMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218AF23138F8D00F75F2E /* UIColor+VTMagic.m */; };
+		77F218BC23138F8D00F75F2E /* VTMagicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218B023138F8D00F75F2E /* VTMagicView.m */; };
+		77F218BD23138F8D00F75F2E /* UIViewController+VTMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218B123138F8D00F75F2E /* UIViewController+VTMagic.m */; };
+		77F218BF2313904A00F75F2E /* themejson_day.json in Resources */ = {isa = PBXBuildFile; fileRef = 77F218BE2313904A00F75F2E /* themejson_day.json */; };
+		77F218C12313905600F75F2E /* themejson_night.json in Resources */ = {isa = PBXBuildFile; fileRef = 77F218C02313905600F75F2E /* themejson_night.json */; };
+		77F218C82313928D00F75F2E /* MainHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218C72313928C00F75F2E /* MainHomeViewController.m */; };
+		77F218CF2313B18100F75F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77F218D12313B18100F75F2E /* InfoPlist.strings */; };
+		77F218D62313B51600F75F2E /* ChangeLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218D52313B51600F75F2E /* ChangeLanguage.m */; };
+		77F218D92313B8C800F75F2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77F218DB2313B8C800F75F2E /* Localizable.strings */; };
+		77F218E02313C87A00F75F2E /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F218DF2313C87A00F75F2E /* LocalAuthentication.framework */; };
 		77F73F4422F1265100E0EBFA /* CollectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F4322F1265100E0EBFA /* CollectsTableViewController.m */; };
 		77F73F4722F1266800E0EBFA /* CollectsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F4622F1266800E0EBFA /* CollectsTableViewCell.m */; };
 		77F73F4E22F12A4100E0EBFA /* AddressListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F4D22F12A4100E0EBFA /* AddressListsViewController.m */; };
@@ -99,14 +114,6 @@
 		77F73F8122F1443600E0EBFA /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F8022F1443500E0EBFA /* MenuView.m */; };
 		77F73F8722F1450800E0EBFA /* MyFanLiDingDanMingXiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F8622F1450800E0EBFA /* MyFanLiDingDanMingXiViewController.m */; };
 		77F73F8A22F1455A00E0EBFA /* MyFanLiDingDanMingXiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F8922F1455A00E0EBFA /* MyFanLiDingDanMingXiTableViewController.m */; };
-		77F73FA022F1459400E0EBFA /* VTContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F8C22F1459400E0EBFA /* VTContentView.m */; };
-		77F73FA122F1459400E0EBFA /* VTMagicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F9222F1459400E0EBFA /* VTMagicController.m */; };
-		77F73FA222F1459400E0EBFA /* VTMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F9422F1459400E0EBFA /* VTMenuBar.m */; };
-		77F73FA322F1459400E0EBFA /* UIButton+VTMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F9722F1459400E0EBFA /* UIButton+VTMagic.m */; };
-		77F73FA422F1459400E0EBFA /* UIScrollView+VTMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F9822F1459400E0EBFA /* UIScrollView+VTMagic.m */; };
-		77F73FA522F1459400E0EBFA /* UIColor+VTMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F9922F1459400E0EBFA /* UIColor+VTMagic.m */; };
-		77F73FA622F1459400E0EBFA /* VTMagicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F9A22F1459400E0EBFA /* VTMagicView.m */; };
-		77F73FA722F1459400E0EBFA /* UIViewController+VTMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73F9B22F1459400E0EBFA /* UIViewController+VTMagic.m */; };
 		77F73FAA22F1461700E0EBFA /* MyFanLiDingDanMingXiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73FA922F1461700E0EBFA /* MyFanLiDingDanMingXiTableViewCell.m */; };
 		77F73FB122F1496500E0EBFA /* MyYouHuiQuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73FB022F1496500E0EBFA /* MyYouHuiQuanViewController.m */; };
 		77F73FB822F1688C00E0EBFA /* MyYouHuiQuanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F73FB722F1688C00E0EBFA /* MyYouHuiQuanTableViewController.m */; };
@@ -256,6 +263,43 @@
 		77A8E87F22F2C02800CAAF69 /* back_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_click@2x.png"; sourceTree = "<group>"; };
 		77DE4A4E22E9B2C60062E98C /* JianLeKeBaiCaiMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainView.h; sourceTree = "<group>"; };
 		77DE4A4F22E9B2C60062E98C /* JianLeKeBaiCaiMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainView.m; sourceTree = "<group>"; };
+		77F218A223138F8D00F75F2E /* VTContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTContentView.m; sourceTree = "<group>"; };
+		77F218A323138F8D00F75F2E /* UIColor+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VTMagic.h"; sourceTree = "<group>"; };
+		77F218A423138F8D00F75F2E /* UIScrollView+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VTMagic.h"; sourceTree = "<group>"; };
+		77F218A523138F8D00F75F2E /* UIButton+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+VTMagic.h"; sourceTree = "<group>"; };
+		77F218A623138F8D00F75F2E /* UIViewController+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VTMagic.h"; sourceTree = "<group>"; };
+		77F218A723138F8D00F75F2E /* VTMagicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagicView.h; sourceTree = "<group>"; };
+		77F218A823138F8D00F75F2E /* VTMagicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTMagicController.m; sourceTree = "<group>"; };
+		77F218A923138F8D00F75F2E /* VTMagicProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagicProtocol.h; sourceTree = "<group>"; };
+		77F218AA23138F8D00F75F2E /* VTMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTMenuBar.m; sourceTree = "<group>"; };
+		77F218AB23138F8D00F75F2E /* VTContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTContentView.h; sourceTree = "<group>"; };
+		77F218AC23138F8D00F75F2E /* VTEnumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTEnumType.h; sourceTree = "<group>"; };
+		77F218AD23138F8D00F75F2E /* UIButton+VTMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VTMagic.m"; sourceTree = "<group>"; };
+		77F218AE23138F8D00F75F2E /* UIScrollView+VTMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VTMagic.m"; sourceTree = "<group>"; };
+		77F218AF23138F8D00F75F2E /* UIColor+VTMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VTMagic.m"; sourceTree = "<group>"; };
+		77F218B023138F8D00F75F2E /* VTMagicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTMagicView.m; sourceTree = "<group>"; };
+		77F218B123138F8D00F75F2E /* UIViewController+VTMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VTMagic.m"; sourceTree = "<group>"; };
+		77F218B223138F8D00F75F2E /* VTMagicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagicMacros.h; sourceTree = "<group>"; };
+		77F218B323138F8D00F75F2E /* VTMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMenuBar.h; sourceTree = "<group>"; };
+		77F218B423138F8D00F75F2E /* VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagic.h; sourceTree = "<group>"; };
+		77F218B523138F8D00F75F2E /* VTMagicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagicController.h; sourceTree = "<group>"; };
+		77F218BE2313904A00F75F2E /* themejson_day.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = themejson_day.json; sourceTree = "<group>"; };
+		77F218C02313905600F75F2E /* themejson_night.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = themejson_night.json; sourceTree = "<group>"; };
+		77F218C62313928C00F75F2E /* MainHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHomeViewController.h; sourceTree = "<group>"; };
+		77F218C72313928C00F75F2E /* MainHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainHomeViewController.m; sourceTree = "<group>"; };
+		77F218C92313AF4000F75F2E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		77F218CA2313AF4000F75F2E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		77F218CB2313B10D00F75F2E /* my */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = my; path = my.lproj/Main.strings; sourceTree = "<group>"; };
+		77F218CC2313B10D00F75F2E /* my */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = my; path = my.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		77F218D02313B18100F75F2E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		77F218D22313B19F00F75F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77F218D32313B1A000F75F2E /* my */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = my; path = my.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77F218D42313B51600F75F2E /* ChangeLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeLanguage.h; sourceTree = "<group>"; };
+		77F218D52313B51600F75F2E /* ChangeLanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeLanguage.m; sourceTree = "<group>"; };
+		77F218DA2313B8C800F75F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77F218DC2313B8CD00F75F2E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		77F218DD2313B8D000F75F2E /* my */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = my; path = my.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77F218DF2313C87A00F75F2E /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		77F73F4222F1265100E0EBFA /* CollectsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectsTableViewController.h; sourceTree = "<group>"; };
 		77F73F4322F1265100E0EBFA /* CollectsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectsTableViewController.m; sourceTree = "<group>"; };
 		77F73F4522F1266800E0EBFA /* CollectsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectsTableViewCell.h; sourceTree = "<group>"; };
@@ -292,26 +336,6 @@
 		77F73F8622F1450800E0EBFA /* MyFanLiDingDanMingXiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFanLiDingDanMingXiViewController.m; sourceTree = "<group>"; };
 		77F73F8822F1455A00E0EBFA /* MyFanLiDingDanMingXiTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFanLiDingDanMingXiTableViewController.h; sourceTree = "<group>"; };
 		77F73F8922F1455A00E0EBFA /* MyFanLiDingDanMingXiTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFanLiDingDanMingXiTableViewController.m; sourceTree = "<group>"; };
-		77F73F8C22F1459400E0EBFA /* VTContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTContentView.m; sourceTree = "<group>"; };
-		77F73F8D22F1459400E0EBFA /* UIColor+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VTMagic.h"; sourceTree = "<group>"; };
-		77F73F8E22F1459400E0EBFA /* UIScrollView+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VTMagic.h"; sourceTree = "<group>"; };
-		77F73F8F22F1459400E0EBFA /* UIButton+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+VTMagic.h"; sourceTree = "<group>"; };
-		77F73F9022F1459400E0EBFA /* UIViewController+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VTMagic.h"; sourceTree = "<group>"; };
-		77F73F9122F1459400E0EBFA /* VTMagicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagicView.h; sourceTree = "<group>"; };
-		77F73F9222F1459400E0EBFA /* VTMagicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTMagicController.m; sourceTree = "<group>"; };
-		77F73F9322F1459400E0EBFA /* VTMagicProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagicProtocol.h; sourceTree = "<group>"; };
-		77F73F9422F1459400E0EBFA /* VTMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTMenuBar.m; sourceTree = "<group>"; };
-		77F73F9522F1459400E0EBFA /* VTContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTContentView.h; sourceTree = "<group>"; };
-		77F73F9622F1459400E0EBFA /* VTEnumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTEnumType.h; sourceTree = "<group>"; };
-		77F73F9722F1459400E0EBFA /* UIButton+VTMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VTMagic.m"; sourceTree = "<group>"; };
-		77F73F9822F1459400E0EBFA /* UIScrollView+VTMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VTMagic.m"; sourceTree = "<group>"; };
-		77F73F9922F1459400E0EBFA /* UIColor+VTMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VTMagic.m"; sourceTree = "<group>"; };
-		77F73F9A22F1459400E0EBFA /* VTMagicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTMagicView.m; sourceTree = "<group>"; };
-		77F73F9B22F1459400E0EBFA /* UIViewController+VTMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VTMagic.m"; sourceTree = "<group>"; };
-		77F73F9C22F1459400E0EBFA /* VTMagicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagicMacros.h; sourceTree = "<group>"; };
-		77F73F9D22F1459400E0EBFA /* VTMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMenuBar.h; sourceTree = "<group>"; };
-		77F73F9E22F1459400E0EBFA /* VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagic.h; sourceTree = "<group>"; };
-		77F73F9F22F1459400E0EBFA /* VTMagicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMagicController.h; sourceTree = "<group>"; };
 		77F73FA822F1461700E0EBFA /* MyFanLiDingDanMingXiTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFanLiDingDanMingXiTableViewCell.h; sourceTree = "<group>"; };
 		77F73FA922F1461700E0EBFA /* MyFanLiDingDanMingXiTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFanLiDingDanMingXiTableViewCell.m; sourceTree = "<group>"; };
 		77F73FAF22F1496500E0EBFA /* MyYouHuiQuanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyYouHuiQuanViewController.h; sourceTree = "<group>"; };
@@ -334,6 +358,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F218E02313C87A00F75F2E /* LocalAuthentication.framework in Frameworks */,
 				7708FA9122C70784005DDA31 /* AssetsLibrary.framework in Frameworks */,
 				7708FA8F22C706A3005DDA31 /* Photos.framework in Frameworks */,
 				7708FA8D22C7069B005DDA31 /* ImageIO.framework in Frameworks */,
@@ -350,6 +375,7 @@
 		3FCA42DA99003ED83C07F9E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				77F218DF2313C87A00F75F2E /* LocalAuthentication.framework */,
 				7708FA9022C70784005DDA31 /* AssetsLibrary.framework */,
 				7708FA8E22C706A3005DDA31 /* Photos.framework */,
 				7708FA8C22C7069B005DDA31 /* ImageIO.framework */,
@@ -403,6 +429,7 @@
 		7708FA5422C704E3005DDA31 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				77F218C22313922800F75F2E /* 主页 */,
 				770F380722EFD5EA001AC00F /* 下单 */,
 				7745F64A22EECC7B00CCB4AD /* 商品详情 */,
 				7708FAFD22C70FB3005DDA31 /* 捡了颗白菜 */,
@@ -416,7 +443,7 @@
 		7708FA5522C7050C005DDA31 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				77F73F8B22F1459400E0EBFA /* VTMagic */,
+				77F218A123138F8D00F75F2E /* VTMagic */,
 				7708FAE522C70DC1005DDA31 /* GMDCircleLoader */,
 				7708FAD922C70CDD005DDA31 /* ShareSDK */,
 			);
@@ -438,8 +465,14 @@
 		7708FA5722C70560005DDA31 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				77F218BE2313904A00F75F2E /* themejson_day.json */,
+				77F218C02313905600F75F2E /* themejson_night.json */,
 				7708FA3E22C6F597005DDA31 /* AppDelegate.h */,
 				7708FA3F22C6F597005DDA31 /* AppDelegate.m */,
+				77F218D12313B18100F75F2E /* InfoPlist.strings */,
+				77F218DB2313B8C800F75F2E /* Localizable.strings */,
+				77F218D42313B51600F75F2E /* ChangeLanguage.h */,
+				77F218D52313B51600F75F2E /* ChangeLanguage.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -934,6 +967,66 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		77F218A123138F8D00F75F2E /* VTMagic */ = {
+			isa = PBXGroup;
+			children = (
+				77F218A223138F8D00F75F2E /* VTContentView.m */,
+				77F218A323138F8D00F75F2E /* UIColor+VTMagic.h */,
+				77F218A423138F8D00F75F2E /* UIScrollView+VTMagic.h */,
+				77F218A523138F8D00F75F2E /* UIButton+VTMagic.h */,
+				77F218A623138F8D00F75F2E /* UIViewController+VTMagic.h */,
+				77F218A723138F8D00F75F2E /* VTMagicView.h */,
+				77F218A823138F8D00F75F2E /* VTMagicController.m */,
+				77F218A923138F8D00F75F2E /* VTMagicProtocol.h */,
+				77F218AA23138F8D00F75F2E /* VTMenuBar.m */,
+				77F218AB23138F8D00F75F2E /* VTContentView.h */,
+				77F218AC23138F8D00F75F2E /* VTEnumType.h */,
+				77F218AD23138F8D00F75F2E /* UIButton+VTMagic.m */,
+				77F218AE23138F8D00F75F2E /* UIScrollView+VTMagic.m */,
+				77F218AF23138F8D00F75F2E /* UIColor+VTMagic.m */,
+				77F218B023138F8D00F75F2E /* VTMagicView.m */,
+				77F218B123138F8D00F75F2E /* UIViewController+VTMagic.m */,
+				77F218B223138F8D00F75F2E /* VTMagicMacros.h */,
+				77F218B323138F8D00F75F2E /* VTMenuBar.h */,
+				77F218B423138F8D00F75F2E /* VTMagic.h */,
+				77F218B523138F8D00F75F2E /* VTMagicController.h */,
+			);
+			path = VTMagic;
+			sourceTree = "<group>";
+		};
+		77F218C22313922800F75F2E /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				77F218C52313924B00F75F2E /* DataController */,
+				77F218C42313924400F75F2E /* View */,
+				77F218C32313922F00F75F2E /* Controller */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		77F218C32313922F00F75F2E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F218C62313928C00F75F2E /* MainHomeViewController.h */,
+				77F218C72313928C00F75F2E /* MainHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F218C42313924400F75F2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F218C52313924B00F75F2E /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
 		77F73F4022F1260300E0EBFA /* SubController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1105,34 +1198,6 @@
 				77F73F8922F1455A00E0EBFA /* MyFanLiDingDanMingXiTableViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		77F73F8B22F1459400E0EBFA /* VTMagic */ = {
-			isa = PBXGroup;
-			children = (
-				77F73F8C22F1459400E0EBFA /* VTContentView.m */,
-				77F73F8D22F1459400E0EBFA /* UIColor+VTMagic.h */,
-				77F73F8E22F1459400E0EBFA /* UIScrollView+VTMagic.h */,
-				77F73F8F22F1459400E0EBFA /* UIButton+VTMagic.h */,
-				77F73F9022F1459400E0EBFA /* UIViewController+VTMagic.h */,
-				77F73F9122F1459400E0EBFA /* VTMagicView.h */,
-				77F73F9222F1459400E0EBFA /* VTMagicController.m */,
-				77F73F9322F1459400E0EBFA /* VTMagicProtocol.h */,
-				77F73F9422F1459400E0EBFA /* VTMenuBar.m */,
-				77F73F9522F1459400E0EBFA /* VTContentView.h */,
-				77F73F9622F1459400E0EBFA /* VTEnumType.h */,
-				77F73F9722F1459400E0EBFA /* UIButton+VTMagic.m */,
-				77F73F9822F1459400E0EBFA /* UIScrollView+VTMagic.m */,
-				77F73F9922F1459400E0EBFA /* UIColor+VTMagic.m */,
-				77F73F9A22F1459400E0EBFA /* VTMagicView.m */,
-				77F73F9B22F1459400E0EBFA /* UIViewController+VTMagic.m */,
-				77F73F9C22F1459400E0EBFA /* VTMagicMacros.h */,
-				77F73F9D22F1459400E0EBFA /* VTMenuBar.h */,
-				77F73F9E22F1459400E0EBFA /* VTMagic.h */,
-				77F73F9F22F1459400E0EBFA /* VTMagicController.h */,
-			);
-			name = VTMagic;
-			path = "../../../../未命名文件夹 3/Meidebi/Meidebi/Vendors/VTMagic";
 			sourceTree = "<group>";
 		};
 		77F73FAC22F1493500E0EBFA /* 优惠券 */ = {
@@ -1318,6 +1383,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				my,
 			);
 			mainGroup = 7708FA3222C6F597005DDA31;
 			productRefGroup = 7708FA3C22C6F597005DDA31 /* Products */;
@@ -1334,6 +1401,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F218BF2313904A00F75F2E /* themejson_day.json in Resources */,
+				77F218CF2313B18100F75F2E /* InfoPlist.strings in Resources */,
 				7708FA4B22C6F59C005DDA31 /* LaunchScreen.storyboard in Resources */,
 				77563A00230FE8F500FC5DC7 /* News_Picture_Save@2x.png in Resources */,
 				77A8E88222F2C02800CAAF69 /* back_click@3x的.png in Resources */,
@@ -1341,7 +1410,9 @@
 				77A8E88122F2C02800CAAF69 /* back@2x.png in Resources */,
 				7708FADA22C70CDD005DDA31 /* ShareSDK in Resources */,
 				7708FA4822C6F59C005DDA31 /* Assets.xcassets in Resources */,
+				77F218D92313B8C800F75F2E /* Localizable.strings in Resources */,
 				77A8E88322F2C02800CAAF69 /* back_click@2x.png in Resources */,
+				77F218C12313905600F75F2E /* themejson_night.json in Resources */,
 				7708FA4622C6F597005DDA31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1396,21 +1467,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				770F381722EFDC22001AC00F /* XiaDanGoodsTableViewCell.m in Sources */,
+				77F218D62313B51600F75F2E /* ChangeLanguage.m in Sources */,
 				770F381822EFDC22001AC00F /* XiaDanGoodsView.m in Sources */,
 				7708FAF222C70E77005DDA31 /* UIView+Additions.m in Sources */,
 				77F73F5422F12C0400E0EBFA /* AddressListsTableViewCell.m in Sources */,
 				77F73F8122F1443600E0EBFA /* MenuView.m in Sources */,
+				77F218B723138F8D00F75F2E /* VTMagicController.m in Sources */,
 				7708FAA422C707F5005DDA31 /* UINavigationController+APSafeTransition.m in Sources */,
-				77F73FA622F1459400E0EBFA /* VTMagicView.m in Sources */,
-				77F73FA522F1459400E0EBFA /* UIColor+VTMagic.m in Sources */,
 				770F382222F0454D001AC00F /* MyMainView.m in Sources */,
 				777C4C9222EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m in Sources */,
+				77F218BB23138F8D00F75F2E /* UIColor+VTMagic.m in Sources */,
 				7708FAA922C707F5005DDA31 /* UIView+UIViewExt.m in Sources */,
 				77F73F4422F1265100E0EBFA /* CollectsTableViewController.m in Sources */,
 				7745F65122EECD1F00CCB4AD /* GoodsDetailViewController.m in Sources */,
 				77F73F5722F1341900E0EBFA /* AddressAddViewController.m in Sources */,
+				77F218B623138F8D00F75F2E /* VTContentView.m in Sources */,
 				7708FB0322C70FF9005DDA31 /* MyMainViewController.m in Sources */,
-				77F73FA422F1459400E0EBFA /* UIScrollView+VTMagic.m in Sources */,
 				7708FB0622C71010005DDA31 /* GouWuCheMainViewController.m in Sources */,
 				7745F65722EED84000CCB4AD /* MDBwebVIew.m in Sources */,
 				77F73F7522F141C700E0EBFA /* MyTiXianJiLuTableViewCell.m in Sources */,
@@ -1419,15 +1491,15 @@
 				77A8E87822F28C5C00CAAF69 /* OrderWuLiuDetailView.m in Sources */,
 				77F73F8A22F1455A00E0EBFA /* MyFanLiDingDanMingXiTableViewController.m in Sources */,
 				7708FAA822C707F5005DDA31 /* UINavigationBar+FixMargin.m in Sources */,
-				77F73FA722F1459400E0EBFA /* UIViewController+VTMagic.m in Sources */,
 				77F73F6322F13E0600E0EBFA /* MyFanLiViewController.m in Sources */,
 				77F73F8722F1450800E0EBFA /* MyFanLiDingDanMingXiViewController.m in Sources */,
+				77F218C82313928D00F75F2E /* MainHomeViewController.m in Sources */,
 				77F73F7822F141DE00E0EBFA /* MyTiXianJiLuViewController.m in Sources */,
 				77F73F4E22F12A4100E0EBFA /* AddressListsViewController.m in Sources */,
+				77F218BA23138F8D00F75F2E /* UIScrollView+VTMagic.m in Sources */,
 				77F73FAA22F1461700E0EBFA /* MyFanLiDingDanMingXiTableViewCell.m in Sources */,
 				77563A02230FE8F500FC5DC7 /* ImageScrollView.m in Sources */,
 				77F73FC822F1736300E0EBFA /* MyOrderListTableViewCell.m in Sources */,
-				77F73FA322F1459400E0EBFA /* UIButton+VTMagic.m in Sources */,
 				770F381F22F019F1001AC00F /* NewPeopleBuyTableViewCell.m in Sources */,
 				77DE4A5022E9B2C60062E98C /* JianLeKeBaiCaiMainView.m in Sources */,
 				770F381222EFD725001AC00F /* XiaDanView.m in Sources */,
@@ -1456,6 +1528,7 @@
 				77563A01230FE8F500FC5DC7 /* ImageZoomScrollView.m in Sources */,
 				77A8E87B22F28C7000CAAF69 /* OrderWuLiuDetailTableViewCell.m in Sources */,
 				77F73F4722F1266800E0EBFA /* CollectsTableViewCell.m in Sources */,
+				77F218BC23138F8D00F75F2E /* VTMagicView.m in Sources */,
 				7745F62322EE867D00CCB4AD /* FenLeiMainView.m in Sources */,
 				7708FAAB22C707F5005DDA31 /* UIImage+ExtensionScal.m in Sources */,
 				77F73FBB22F1693F00E0EBFA /* MyYouHuiQuanTableViewCell.m in Sources */,
@@ -1466,17 +1539,17 @@
 				7708FAA722C707F5005DDA31 /* UIColor+Hex.m in Sources */,
 				77F73F6922F1401600E0EBFA /* MyTiXianViewController.m in Sources */,
 				7708FAF822C70F5E005DDA31 /* RootViewController.m in Sources */,
-				77F73FA222F1459400E0EBFA /* VTMenuBar.m in Sources */,
 				77A8E86F22F2775500CAAF69 /* OrderDetailView.m in Sources */,
+				77F218B923138F8D00F75F2E /* UIButton+VTMagic.m in Sources */,
 				77F73F6622F13E1800E0EBFA /* MyFanLiView.m in Sources */,
 				7708FAF922C70F5E005DDA31 /* RootTableViewController.m in Sources */,
-				77F73FA022F1459400E0EBFA /* VTContentView.m in Sources */,
 				77A8E86922F2761D00CAAF69 /* TuiKuanDetailViewController.m in Sources */,
+				77F218BD23138F8D00F75F2E /* UIViewController+VTMagic.m in Sources */,
 				7745F66322EED9F900CCB4AD /* MDB_UserDefault.m in Sources */,
 				770F380F22EFD6B3001AC00F /* XiaDanViewController.m in Sources */,
-				77F73FA122F1459400E0EBFA /* VTMagicController.m in Sources */,
 				776ABA8B22EAB62F007E8848 /* LJDynamicItem.m in Sources */,
 				770F381C22F01908001AC00F /* NewPeopleBuyTableViewController.m in Sources */,
+				77F218B823138F8D00F75F2E /* VTMenuBar.m in Sources */,
 				77F73FC222F1720000E0EBFA /* MyOrderMainViewController.m in Sources */,
 				77F73F7E22F1420600E0EBFA /* MyFanLiMingXiView.m in Sources */,
 				7745F62922EE934000CCB4AD /* FenLeiMainCollectionViewCell.m in Sources */,
@@ -1497,6 +1570,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				7708FA4522C6F597005DDA31 /* Base */,
+				77F218C92313AF4000F75F2E /* zh-Hans */,
+				77F218CB2313B10D00F75F2E /* my */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1505,8 +1580,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				7708FA4A22C6F59C005DDA31 /* Base */,
+				77F218CA2313AF4000F75F2E /* zh-Hans */,
+				77F218CC2313B10D00F75F2E /* my */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77F218D12313B18100F75F2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F218D02313B18100F75F2E /* zh-Hans */,
+				77F218D22313B19F00F75F2E /* en */,
+				77F218D32313B1A000F75F2E /* my */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77F218DB2313B8C800F75F2E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F218DA2313B8C800F75F2E /* en */,
+				77F218DC2313B8CD00F75F2E /* zh-Hans */,
+				77F218DD2313B8D000F75F2E /* my */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1516,6 +1613,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1575,6 +1673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
