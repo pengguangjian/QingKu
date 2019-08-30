@@ -22,6 +22,10 @@
     
     
     [self drawUI];
+    
+    
+    
+    
 }
 
 -(void)drawUI

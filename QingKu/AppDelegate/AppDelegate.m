@@ -11,6 +11,16 @@
 #import "MainHomeViewController.h"
 #import "ChangeLanguage.h"
 
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+
+
+#import <GoogleSignIn/GoogleSignIn.h>
+
+#define FacebookAPPKEY @"2569099436658344"
+#define FacebookAppSecret @"0750e983dfb14af7744770f32b4c4139"
+
+#define GooGleAPPKEY @"564164296159-0lpeiinen6cfitlt6t8n60nembpmbe4b.apps.googleusercontent.com"
+
 @interface AppDelegate ()
 
 @end
@@ -24,6 +34,13 @@
     if (@available(iOS 11.0, *)){
         [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
     }
+    
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
+    [FBSDKProfile enableUpdatesOnAccessTokenChange:YES];
+    [FBSDKSettings setAppID:FacebookAPPKEY];
+    
+    [GIDSignIn sharedInstance].clientID = GooGleAPPKEY;
     
     [ChangeLanguage initUserLanguage];
     [ChangeLanguage setUserLanguage:[ChangeLanguage userLanguage]];
@@ -43,6 +60,13 @@
     [[UITabBar appearance] setTranslucent:NO];
     [self.window setBackgroundColor:[UIColor whiteColor]];
     return YES;
+}
+
+
+-(void)shareSDKResign
+{
+    
+    
 }
 
 /// 设置主题
@@ -83,12 +107,29 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    [FBSDKAppEvents activateApp];
+    
 }
 
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    
+    
+    return [[GIDSignIn sharedInstance] handleURL:url];
+//    return [[FBSDKApplicationDelegate sharedInstance] application:application
+//                                                          openURL:url
+//                                                sourceApplication:sourceApplication
+//                                                       annotation:annotation];
+}
+
 
 
 @end

@@ -27,7 +27,6 @@
 		7708FAAA22C707F5005DDA31 /* NSString+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAA022C707F4005DDA31 /* NSString+extend.m */; };
 		7708FAAB22C707F5005DDA31 /* UIImage+ExtensionScal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAA122C707F4005DDA31 /* UIImage+ExtensionScal.m */; };
 		7708FAAC22C707F5005DDA31 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAA322C707F4005DDA31 /* UITabBar+badge.m */; };
-		7708FADA22C70CDD005DDA31 /* ShareSDK in Resources */ = {isa = PBXBuildFile; fileRef = 7708FAD922C70CDD005DDA31 /* ShareSDK */; };
 		7708FAE022C70D70005DDA31 /* HTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FADF22C70D70005DDA31 /* HTTPManager.m */; };
 		7708FAE422C70D88005DDA31 /* MDB_Imagemanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAE322C70D88005DDA31 /* MDB_Imagemanager.m */; };
 		7708FAE822C70DC1005DDA31 /* GMDCircleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FAE722C70DC1005DDA31 /* GMDCircleLoader.m */; };
@@ -48,6 +47,19 @@
 		770F381C22F01908001AC00F /* NewPeopleBuyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770F381B22F01908001AC00F /* NewPeopleBuyTableViewController.m */; };
 		770F381F22F019F1001AC00F /* NewPeopleBuyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 770F381E22F019F1001AC00F /* NewPeopleBuyTableViewCell.m */; };
 		770F382222F0454D001AC00F /* MyMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 770F382122F0454D001AC00F /* MyMainView.m */; };
+		771516592314CBD800B80953 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771516582314CBD800B80953 /* CoreGraphics.framework */; };
+		7715165B2314CBEF00B80953 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7715165A2314CBEE00B80953 /* CoreImage.framework */; };
+		773805DC2318FA46005290B6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773805D92318FA46005290B6 /* FBSDKLoginKit.framework */; };
+		773805DD2318FA46005290B6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773805DA2318FA46005290B6 /* FBSDKShareKit.framework */; };
+		773805DE2318FA46005290B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773805DB2318FA46005290B6 /* FBSDKCoreKit.framework */; };
+		773805E62318FA4B005290B6 /* UIImageView+CreateByUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 773805E12318FA4B005290B6 /* UIImageView+CreateByUrl.m */; };
+		773805E72318FA4B005290B6 /* SUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 773805E22318FA4B005290B6 /* SUCache.m */; };
+		773805E82318FA4B005290B6 /* SUCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 773805E32318FA4B005290B6 /* SUCacheItem.m */; };
+		773805ED23190336005290B6 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 773805EA23190336005290B6 /* GoogleSignIn.bundle */; };
+		773805EE23190336005290B6 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773805EB23190336005290B6 /* GoogleSignInDependencies.framework */; };
+		773805EF23190336005290B6 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773805EC23190336005290B6 /* GoogleSignIn.framework */; };
+		773805F123190378005290B6 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773805F023190378005290B6 /* SafariServices.framework */; };
+		773805F3231903A3005290B6 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773805F2231903A2005290B6 /* AuthenticationServices.framework */; };
 		7745F62322EE867D00CCB4AD /* FenLeiMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F62222EE867D00CCB4AD /* FenLeiMainView.m */; };
 		7745F62622EE8BB000CCB4AD /* FenLeiMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F62522EE8BB000CCB4AD /* FenLeiMainTableViewCell.m */; };
 		7745F62922EE934000CCB4AD /* FenLeiMainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745F62822EE934000CCB4AD /* FenLeiMainCollectionViewCell.m */; };
@@ -159,7 +171,6 @@
 		7708FAA122C707F4005DDA31 /* UIImage+ExtensionScal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ExtensionScal.m"; sourceTree = "<group>"; };
 		7708FAA222C707F4005DDA31 /* UINavigationBar+FixMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FixMargin.h"; sourceTree = "<group>"; };
 		7708FAA322C707F4005DDA31 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
-		7708FAD922C70CDD005DDA31 /* ShareSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ShareSDK; sourceTree = "<group>"; };
 		7708FADE22C70D70005DDA31 /* HTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPManager.h; sourceTree = "<group>"; };
 		7708FADF22C70D70005DDA31 /* HTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPManager.m; sourceTree = "<group>"; };
 		7708FAE222C70D88005DDA31 /* MDB_Imagemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDB_Imagemanager.h; sourceTree = "<group>"; };
@@ -202,6 +213,22 @@
 		770F381E22F019F1001AC00F /* NewPeopleBuyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewPeopleBuyTableViewCell.m; sourceTree = "<group>"; };
 		770F382022F0454D001AC00F /* MyMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMainView.h; sourceTree = "<group>"; };
 		770F382122F0454D001AC00F /* MyMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMainView.m; sourceTree = "<group>"; };
+		771516582314CBD800B80953 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7715165A2314CBEE00B80953 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		773805D92318FA46005290B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		773805DA2318FA46005290B6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		773805DB2318FA46005290B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		773805E02318FA4B005290B6 /* SUCacheItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUCacheItem.h; sourceTree = "<group>"; };
+		773805E12318FA4B005290B6 /* UIImageView+CreateByUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CreateByUrl.m"; sourceTree = "<group>"; };
+		773805E22318FA4B005290B6 /* SUCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUCache.m; sourceTree = "<group>"; };
+		773805E32318FA4B005290B6 /* SUCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUCacheItem.m; sourceTree = "<group>"; };
+		773805E42318FA4B005290B6 /* SUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUCache.h; sourceTree = "<group>"; };
+		773805E52318FA4B005290B6 /* UIImageView+CreateByUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CreateByUrl.h"; sourceTree = "<group>"; };
+		773805EA23190336005290B6 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		773805EB23190336005290B6 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		773805EC23190336005290B6 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		773805F023190378005290B6 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		773805F2231903A2005290B6 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		7745F62122EE867D00CCB4AD /* FenLeiMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiMainView.h; sourceTree = "<group>"; };
 		7745F62222EE867D00CCB4AD /* FenLeiMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenLeiMainView.m; sourceTree = "<group>"; };
 		7745F62422EE8BB000CCB4AD /* FenLeiMainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FenLeiMainTableViewCell.h; sourceTree = "<group>"; };
@@ -358,12 +385,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773805F3231903A3005290B6 /* AuthenticationServices.framework in Frameworks */,
 				77F218E02313C87A00F75F2E /* LocalAuthentication.framework in Frameworks */,
+				773805F123190378005290B6 /* SafariServices.framework in Frameworks */,
+				7715165B2314CBEF00B80953 /* CoreImage.framework in Frameworks */,
+				771516592314CBD800B80953 /* CoreGraphics.framework in Frameworks */,
 				7708FA9122C70784005DDA31 /* AssetsLibrary.framework in Frameworks */,
+				773805EF23190336005290B6 /* GoogleSignIn.framework in Frameworks */,
 				7708FA8F22C706A3005DDA31 /* Photos.framework in Frameworks */,
 				7708FA8D22C7069B005DDA31 /* ImageIO.framework in Frameworks */,
 				7708FA8B22C7068B005DDA31 /* libsqlite3.tbd in Frameworks */,
 				7708FA8922C70682005DDA31 /* libz.tbd in Frameworks */,
+				773805EE23190336005290B6 /* GoogleSignInDependencies.framework in Frameworks */,
+				773805DE2318FA46005290B6 /* FBSDKCoreKit.framework in Frameworks */,
+				773805DD2318FA46005290B6 /* FBSDKShareKit.framework in Frameworks */,
+				773805DC2318FA46005290B6 /* FBSDKLoginKit.framework in Frameworks */,
 				7708FA8722C7067A005DDA31 /* libc++.tbd in Frameworks */,
 				98DC3ADF3BF871794E36733B /* Pods_QingKu.framework in Frameworks */,
 			);
@@ -375,6 +411,10 @@
 		3FCA42DA99003ED83C07F9E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				773805F2231903A2005290B6 /* AuthenticationServices.framework */,
+				773805F023190378005290B6 /* SafariServices.framework */,
+				7715165A2314CBEE00B80953 /* CoreImage.framework */,
+				771516582314CBD800B80953 /* CoreGraphics.framework */,
 				77F218DF2313C87A00F75F2E /* LocalAuthentication.framework */,
 				7708FA9022C70784005DDA31 /* AssetsLibrary.framework */,
 				7708FA8E22C706A3005DDA31 /* Photos.framework */,
@@ -443,9 +483,10 @@
 		7708FA5522C7050C005DDA31 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				773805E923190336005290B6 /* googlesdk */,
+				773805D82318FA46005290B6 /* facebook */,
 				77F218A123138F8D00F75F2E /* VTMagic */,
 				7708FAE522C70DC1005DDA31 /* GMDCircleLoader */,
-				7708FAD922C70CDD005DDA31 /* ShareSDK */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -682,6 +723,40 @@
 				770F381E22F019F1001AC00F /* NewPeopleBuyTableViewCell.m */,
 			);
 			path = "新人零元购";
+			sourceTree = "<group>";
+		};
+		773805D82318FA46005290B6 /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				773805DF2318FA4B005290B6 /* Tool */,
+				773805D92318FA46005290B6 /* FBSDKLoginKit.framework */,
+				773805DA2318FA46005290B6 /* FBSDKShareKit.framework */,
+				773805DB2318FA46005290B6 /* FBSDKCoreKit.framework */,
+			);
+			path = facebook;
+			sourceTree = "<group>";
+		};
+		773805DF2318FA4B005290B6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				773805E02318FA4B005290B6 /* SUCacheItem.h */,
+				773805E12318FA4B005290B6 /* UIImageView+CreateByUrl.m */,
+				773805E22318FA4B005290B6 /* SUCache.m */,
+				773805E32318FA4B005290B6 /* SUCacheItem.m */,
+				773805E42318FA4B005290B6 /* SUCache.h */,
+				773805E52318FA4B005290B6 /* UIImageView+CreateByUrl.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		773805E923190336005290B6 /* googlesdk */ = {
+			isa = PBXGroup;
+			children = (
+				773805EA23190336005290B6 /* GoogleSignIn.bundle */,
+				773805EB23190336005290B6 /* GoogleSignInDependencies.framework */,
+				773805EC23190336005290B6 /* GoogleSignIn.framework */,
+			);
+			path = googlesdk;
 			sourceTree = "<group>";
 		};
 		7745F63022EEA8A300CCB4AD /* SubModules */ = {
@@ -1408,8 +1483,8 @@
 				77A8E88222F2C02800CAAF69 /* back_click@3x的.png in Resources */,
 				77A8E88022F2C02800CAAF69 /* back@3x.png in Resources */,
 				77A8E88122F2C02800CAAF69 /* back@2x.png in Resources */,
-				7708FADA22C70CDD005DDA31 /* ShareSDK in Resources */,
 				7708FA4822C6F59C005DDA31 /* Assets.xcassets in Resources */,
+				773805ED23190336005290B6 /* GoogleSignIn.bundle in Resources */,
 				77F218D92313B8C800F75F2E /* Localizable.strings in Resources */,
 				77A8E88322F2C02800CAAF69 /* back_click@2x.png in Resources */,
 				77F218C12313905600F75F2E /* themejson_night.json in Resources */,
@@ -1466,6 +1541,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773805E72318FA4B005290B6 /* SUCache.m in Sources */,
 				770F381722EFDC22001AC00F /* XiaDanGoodsTableViewCell.m in Sources */,
 				77F218D62313B51600F75F2E /* ChangeLanguage.m in Sources */,
 				770F381822EFDC22001AC00F /* XiaDanGoodsView.m in Sources */,
@@ -1474,6 +1550,7 @@
 				77F73F8122F1443600E0EBFA /* MenuView.m in Sources */,
 				77F218B723138F8D00F75F2E /* VTMagicController.m in Sources */,
 				7708FAA422C707F5005DDA31 /* UINavigationController+APSafeTransition.m in Sources */,
+				773805E62318FA4B005290B6 /* UIImageView+CreateByUrl.m in Sources */,
 				770F382222F0454D001AC00F /* MyMainView.m in Sources */,
 				777C4C9222EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m in Sources */,
 				77F218BB23138F8D00F75F2E /* UIColor+VTMagic.m in Sources */,
@@ -1524,6 +1601,7 @@
 				7708FAA622C707F5005DDA31 /* UITextView+Placeholder.m in Sources */,
 				777C4C9522EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.m in Sources */,
 				7745F63B22EEC55000CCB4AD /* FenLeiSearchView.m in Sources */,
+				773805E82318FA4B005290B6 /* SUCacheItem.m in Sources */,
 				7708FA4322C6F597005DDA31 /* ViewController.m in Sources */,
 				77563A01230FE8F500FC5DC7 /* ImageZoomScrollView.m in Sources */,
 				77A8E87B22F28C7000CAAF69 /* OrderWuLiuDetailTableViewCell.m in Sources */,
@@ -1728,8 +1806,9 @@
 			baseConfigurationReference = C9A44B21AC23A7859A0246F3 /* Pods-QingKu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4HALHN28LJ;
+				DEVELOPMENT_TEAM = HXYUQGKLDR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/PlatformSDK/QQSDK",
@@ -1737,6 +1816,8 @@
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/Optional",
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/PlatformConnector",
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK",
+					"$(PROJECT_DIR)/QingKu/Vendors/facebook",
+					"$(PROJECT_DIR)/QingKu/Vendors/googlesdk",
 				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = QingKu/QingKuPrefixHeader.pch;
@@ -1751,8 +1832,9 @@
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meidebi.QingKu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtktkj.momo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1762,8 +1844,9 @@
 			baseConfigurationReference = 01E5E04A3770147BCC6796EA /* Pods-QingKu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4HALHN28LJ;
+				DEVELOPMENT_TEAM = HXYUQGKLDR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/PlatformSDK/QQSDK",
@@ -1771,6 +1854,8 @@
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/Optional",
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/PlatformConnector",
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK",
+					"$(PROJECT_DIR)/QingKu/Vendors/facebook",
+					"$(PROJECT_DIR)/QingKu/Vendors/googlesdk",
 				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = QingKu/QingKuPrefixHeader.pch;
@@ -1785,8 +1870,9 @@
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
 					"$(PROJECT_DIR)/QingKu/Vendors/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meidebi.QingKu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtktkj.momo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
