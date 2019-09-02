@@ -145,7 +145,7 @@
         make.width.offset(200);
     }];
     lbyueMoney = lbyue;
-    
+//    NSLog(@"000000");
 }
 
 -(void)drawTiShiView:(UIImageView *)view
