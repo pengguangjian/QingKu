@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194DEFD0231A0663003195F6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194DEFCF231A0663003195F6 /* LoginViewController.m */; };
+		194DEFD3231A0672003195F6 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 194DEFD2231A0672003195F6 /* LoginView.m */; };
+		196BC069231B5D9D001314F4 /* PhoneYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196BC067231B5D9D001314F4 /* PhoneYZViewController.m */; };
+		196BC06A231B5D9D001314F4 /* PhoneYZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196BC068231B5D9D001314F4 /* PhoneYZViewController.xib */; };
+		196BC06F231B6B59001314F4 /* SelectCountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196BC06D231B6B59001314F4 /* SelectCountryViewController.m */; };
+		196BC073231B7843001314F4 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196BC072231B7843001314F4 /* ForgetPasswordViewController.m */; };
+		196BC076231B788A001314F4 /* ForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 196BC075231B788A001314F4 /* ForgetPasswordView.m */; };
+		196BC079231B9647001314F4 /* MainHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 196BC078231B9647001314F4 /* MainHomeView.m */; };
+		19BBE836231C12B000219DAC /* MainHomeBangDingTiShiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BBE835231C12B000219DAC /* MainHomeBangDingTiShiView.m */; };
 		7708FA4022C6F597005DDA31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FA3F22C6F597005DDA31 /* AppDelegate.m */; };
 		7708FA4322C6F597005DDA31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708FA4222C6F597005DDA31 /* ViewController.m */; };
 		7708FA4622C6F597005DDA31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7708FA4422C6F597005DDA31 /* Main.storyboard */; };
@@ -93,6 +102,36 @@
 		77A8E88222F2C02800CAAF69 /* back_click@3x的.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A8E87E22F2C02800CAAF69 /* back_click@3x的.png */; };
 		77A8E88322F2C02800CAAF69 /* back_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A8E87F22F2C02800CAAF69 /* back_click@2x.png */; };
 		77DE4A5022E9B2C60062E98C /* JianLeKeBaiCaiMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE4A4F22E9B2C60062E98C /* JianLeKeBaiCaiMainView.m */; };
+		77F120A6231CC828000CC316 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F12085231CC828000CC316 /* SetViewController.m */; };
+		77F120A7231CC828000CC316 /* SetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F12087231CC828000CC316 /* SetView.m */; };
+		77F120A8231CC828000CC316 /* PhoneYanZhenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1208C231CC828000CC316 /* PhoneYanZhenViewController.m */; };
+		77F120A9231CC828000CC316 /* PhoneYanZhenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1208F231CC828000CC316 /* PhoneYanZhenView.m */; };
+		77F120AA231CC828000CC316 /* SetNewPayPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F12094231CC828000CC316 /* SetNewPayPasswordViewController.m */; };
+		77F120AB231CC828000CC316 /* SetNewPayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F12096231CC828000CC316 /* SetNewPayPasswordView.m */; };
+		77F120AC231CC828000CC316 /* SetPayPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1209A231CC828000CC316 /* SetPayPasswordViewController.m */; };
+		77F120AD231CC828000CC316 /* SetPayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1209E231CC828000CC316 /* SetPayPasswordView.m */; };
+		77F120AE231CC828000CC316 /* ZhiWenYanZhenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120A1231CC828000CC316 /* ZhiWenYanZhenViewController.m */; };
+		77F120AF231CC828000CC316 /* ZhiWenYanZhenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120A4231CC828000CC316 /* ZhiWenYanZhenView.m */; };
+		77F120B4231CE9EA000CC316 /* GuanYuWoMenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120B3231CE9EA000CC316 /* GuanYuWoMenViewController.m */; };
+		77F120BA231CEF5C000CC316 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120B9231CEF5C000CC316 /* UserInfoViewController.m */; };
+		77F120BD231CEF6F000CC316 /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120BC231CEF6F000CC316 /* UserInfoView.m */; };
+		77F120C3231CF5C0000CC316 /* ChangePhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120C2231CF5C0000CC316 /* ChangePhoneView.m */; };
+		77F120C6231CF5CE000CC316 /* ChangePhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120C5231CF5CE000CC316 /* ChangePhoneViewController.m */; };
+		77F120CC231CFB1D000CC316 /* FuKuanMaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120CB231CFB1D000CC316 /* FuKuanMaViewController.m */; };
+		77F120CF231CFB2D000CC316 /* FuKuanMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120CE231CFB2D000CC316 /* FuKuanMaView.m */; };
+		77F120D5231D0215000CC316 /* YuEChaXunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120D4231D0215000CC316 /* YuEChaXunView.m */; };
+		77F120D8231D022B000CC316 /* YuEChaXunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120D7231D022B000CC316 /* YuEChaXunViewController.m */; };
+		77F120DE231D0BBB000CC316 /* QianBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120DD231D0BBB000CC316 /* QianBaoViewController.m */; };
+		77F120E1231D0BCB000CC316 /* QianBaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120E0231D0BCB000CC316 /* QianBaoView.m */; };
+		77F120E7231D141A000CC316 /* ChongZhiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120E6231D141A000CC316 /* ChongZhiView.m */; };
+		77F120EA231D1445000CC316 /* ChongZhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120E9231D1445000CC316 /* ChongZhiViewController.m */; };
+		77F120F3231D1553000CC316 /* ChongZhiJiLuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120F2231D1553000CC316 /* ChongZhiJiLuTableViewController.m */; };
+		77F120F6231D1568000CC316 /* ChongZhiJiLuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120F5231D1568000CC316 /* ChongZhiJiLuTableViewCell.m */; };
+		77F120FC231D1A70000CC316 /* XiaoFeiJiLuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120FB231D1A70000CC316 /* XiaoFeiJiLuTableViewCell.m */; };
+		77F120FF231D1A82000CC316 /* XiaoFeiJiLuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F120FE231D1A82000CC316 /* XiaoFeiJiLuTableViewController.m */; };
+		77F12105231D1BD7000CC316 /* ShiMingRenZhengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F12104231D1BD7000CC316 /* ShiMingRenZhengViewController.m */; };
+		77F12108231D1BE8000CC316 /* ShiMingRenZhengView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F12107231D1BE8000CC316 /* ShiMingRenZhengView.m */; };
+		77F1210B231D22B0000CC316 /* ImagePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1210A231D22AF000CC316 /* ImagePlayerView.m */; };
 		77F218B623138F8D00F75F2E /* VTContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218A223138F8D00F75F2E /* VTContentView.m */; };
 		77F218B723138F8D00F75F2E /* VTMagicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218A823138F8D00F75F2E /* VTMagicController.m */; };
 		77F218B823138F8D00F75F2E /* VTMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F218AA23138F8D00F75F2E /* VTMenuBar.m */; };
@@ -138,6 +177,23 @@
 
 /* Begin PBXFileReference section */
 		01E5E04A3770147BCC6796EA /* Pods-QingKu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingKu.release.xcconfig"; path = "Target Support Files/Pods-QingKu/Pods-QingKu.release.xcconfig"; sourceTree = "<group>"; };
+		194DEFCE231A0663003195F6 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		194DEFCF231A0663003195F6 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		194DEFD1231A0672003195F6 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		194DEFD2231A0672003195F6 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		196BC066231B5D9D001314F4 /* PhoneYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneYZViewController.h; sourceTree = "<group>"; };
+		196BC067231B5D9D001314F4 /* PhoneYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneYZViewController.m; sourceTree = "<group>"; };
+		196BC068231B5D9D001314F4 /* PhoneYZViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneYZViewController.xib; sourceTree = "<group>"; };
+		196BC06C231B6B59001314F4 /* SelectCountryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectCountryViewController.h; sourceTree = "<group>"; };
+		196BC06D231B6B59001314F4 /* SelectCountryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCountryViewController.m; sourceTree = "<group>"; };
+		196BC071231B7843001314F4 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		196BC072231B7843001314F4 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		196BC074231B788A001314F4 /* ForgetPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordView.h; sourceTree = "<group>"; };
+		196BC075231B788A001314F4 /* ForgetPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordView.m; sourceTree = "<group>"; };
+		196BC077231B9647001314F4 /* MainHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHomeView.h; sourceTree = "<group>"; };
+		196BC078231B9647001314F4 /* MainHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainHomeView.m; sourceTree = "<group>"; };
+		19BBE834231C12B000219DAC /* MainHomeBangDingTiShiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHomeBangDingTiShiView.h; sourceTree = "<group>"; };
+		19BBE835231C12B000219DAC /* MainHomeBangDingTiShiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainHomeBangDingTiShiView.m; sourceTree = "<group>"; };
 		59AA1335B3333DDEF4128D12 /* Pods_QingKu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QingKu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7708FA3B22C6F597005DDA31 /* QingKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7708FA3E22C6F597005DDA31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -290,6 +346,66 @@
 		77A8E87F22F2C02800CAAF69 /* back_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_click@2x.png"; sourceTree = "<group>"; };
 		77DE4A4E22E9B2C60062E98C /* JianLeKeBaiCaiMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianLeKeBaiCaiMainView.h; sourceTree = "<group>"; };
 		77DE4A4F22E9B2C60062E98C /* JianLeKeBaiCaiMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianLeKeBaiCaiMainView.m; sourceTree = "<group>"; };
+		77F12084231CC828000CC316 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		77F12085231CC828000CC316 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		77F12087231CC828000CC316 /* SetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetView.m; sourceTree = "<group>"; };
+		77F12088231CC828000CC316 /* SetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetView.h; sourceTree = "<group>"; };
+		77F1208C231CC828000CC316 /* PhoneYanZhenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneYanZhenViewController.m; sourceTree = "<group>"; };
+		77F1208D231CC828000CC316 /* PhoneYanZhenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneYanZhenViewController.h; sourceTree = "<group>"; };
+		77F1208F231CC828000CC316 /* PhoneYanZhenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneYanZhenView.m; sourceTree = "<group>"; };
+		77F12090231CC828000CC316 /* PhoneYanZhenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneYanZhenView.h; sourceTree = "<group>"; };
+		77F12093231CC828000CC316 /* SetNewPayPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetNewPayPasswordViewController.h; sourceTree = "<group>"; };
+		77F12094231CC828000CC316 /* SetNewPayPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetNewPayPasswordViewController.m; sourceTree = "<group>"; };
+		77F12096231CC828000CC316 /* SetNewPayPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetNewPayPasswordView.m; sourceTree = "<group>"; };
+		77F12097231CC828000CC316 /* SetNewPayPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetNewPayPasswordView.h; sourceTree = "<group>"; };
+		77F1209A231CC828000CC316 /* SetPayPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPayPasswordViewController.m; sourceTree = "<group>"; };
+		77F1209B231CC828000CC316 /* SetPayPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPayPasswordViewController.h; sourceTree = "<group>"; };
+		77F1209D231CC828000CC316 /* SetPayPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPayPasswordView.h; sourceTree = "<group>"; };
+		77F1209E231CC828000CC316 /* SetPayPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPayPasswordView.m; sourceTree = "<group>"; };
+		77F120A1231CC828000CC316 /* ZhiWenYanZhenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhiWenYanZhenViewController.m; sourceTree = "<group>"; };
+		77F120A2231CC828000CC316 /* ZhiWenYanZhenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhiWenYanZhenViewController.h; sourceTree = "<group>"; };
+		77F120A4231CC828000CC316 /* ZhiWenYanZhenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhiWenYanZhenView.m; sourceTree = "<group>"; };
+		77F120A5231CC828000CC316 /* ZhiWenYanZhenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhiWenYanZhenView.h; sourceTree = "<group>"; };
+		77F120B2231CE9EA000CC316 /* GuanYuWoMenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuanYuWoMenViewController.h; sourceTree = "<group>"; };
+		77F120B3231CE9EA000CC316 /* GuanYuWoMenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuanYuWoMenViewController.m; sourceTree = "<group>"; };
+		77F120B8231CEF5C000CC316 /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		77F120B9231CEF5C000CC316 /* UserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		77F120BB231CEF6F000CC316 /* UserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
+		77F120BC231CEF6F000CC316 /* UserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
+		77F120C1231CF5C0000CC316 /* ChangePhoneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePhoneView.h; sourceTree = "<group>"; };
+		77F120C2231CF5C0000CC316 /* ChangePhoneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePhoneView.m; sourceTree = "<group>"; };
+		77F120C4231CF5CE000CC316 /* ChangePhoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePhoneViewController.h; sourceTree = "<group>"; };
+		77F120C5231CF5CE000CC316 /* ChangePhoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePhoneViewController.m; sourceTree = "<group>"; };
+		77F120CA231CFB1D000CC316 /* FuKuanMaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuKuanMaViewController.h; sourceTree = "<group>"; };
+		77F120CB231CFB1D000CC316 /* FuKuanMaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuKuanMaViewController.m; sourceTree = "<group>"; };
+		77F120CD231CFB2D000CC316 /* FuKuanMaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FuKuanMaView.h; path = ../../../../../../../Documents/FuKuanMaView.h; sourceTree = "<group>"; };
+		77F120CE231CFB2D000CC316 /* FuKuanMaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FuKuanMaView.m; path = ../../../../../../../Documents/FuKuanMaView.m; sourceTree = "<group>"; };
+		77F120D3231D0215000CC316 /* YuEChaXunView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YuEChaXunView.h; path = ../../../../../../../Documents/YuEChaXunView.h; sourceTree = "<group>"; };
+		77F120D4231D0215000CC316 /* YuEChaXunView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YuEChaXunView.m; path = ../../../../../../../Documents/YuEChaXunView.m; sourceTree = "<group>"; };
+		77F120D6231D022B000CC316 /* YuEChaXunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuEChaXunViewController.h; sourceTree = "<group>"; };
+		77F120D7231D022B000CC316 /* YuEChaXunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuEChaXunViewController.m; sourceTree = "<group>"; };
+		77F120DC231D0BBB000CC316 /* QianBaoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QianBaoViewController.h; path = ../../../../../../../Documents/QianBaoViewController.h; sourceTree = "<group>"; };
+		77F120DD231D0BBB000CC316 /* QianBaoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QianBaoViewController.m; path = ../../../../../../../Documents/QianBaoViewController.m; sourceTree = "<group>"; };
+		77F120DF231D0BCB000CC316 /* QianBaoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QianBaoView.h; sourceTree = "<group>"; };
+		77F120E0231D0BCB000CC316 /* QianBaoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QianBaoView.m; sourceTree = "<group>"; };
+		77F120E5231D141A000CC316 /* ChongZhiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChongZhiView.h; sourceTree = "<group>"; };
+		77F120E6231D141A000CC316 /* ChongZhiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChongZhiView.m; sourceTree = "<group>"; };
+		77F120E8231D1445000CC316 /* ChongZhiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChongZhiViewController.h; sourceTree = "<group>"; };
+		77F120E9231D1445000CC316 /* ChongZhiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChongZhiViewController.m; sourceTree = "<group>"; };
+		77F120F1231D1553000CC316 /* ChongZhiJiLuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChongZhiJiLuTableViewController.h; sourceTree = "<group>"; };
+		77F120F2231D1553000CC316 /* ChongZhiJiLuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChongZhiJiLuTableViewController.m; sourceTree = "<group>"; };
+		77F120F4231D1568000CC316 /* ChongZhiJiLuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChongZhiJiLuTableViewCell.h; sourceTree = "<group>"; };
+		77F120F5231D1568000CC316 /* ChongZhiJiLuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChongZhiJiLuTableViewCell.m; sourceTree = "<group>"; };
+		77F120FA231D1A70000CC316 /* XiaoFeiJiLuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XiaoFeiJiLuTableViewCell.h; path = ../../../../../../../Documents/XiaoFeiJiLuTableViewCell.h; sourceTree = "<group>"; };
+		77F120FB231D1A70000CC316 /* XiaoFeiJiLuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XiaoFeiJiLuTableViewCell.m; path = ../../../../../../../Documents/XiaoFeiJiLuTableViewCell.m; sourceTree = "<group>"; };
+		77F120FD231D1A82000CC316 /* XiaoFeiJiLuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoFeiJiLuTableViewController.h; sourceTree = "<group>"; };
+		77F120FE231D1A82000CC316 /* XiaoFeiJiLuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoFeiJiLuTableViewController.m; sourceTree = "<group>"; };
+		77F12103231D1BD7000CC316 /* ShiMingRenZhengViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShiMingRenZhengViewController.h; path = ../../../../../../../Documents/ShiMingRenZhengViewController.h; sourceTree = "<group>"; };
+		77F12104231D1BD7000CC316 /* ShiMingRenZhengViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShiMingRenZhengViewController.m; path = ../../../../../../../Documents/ShiMingRenZhengViewController.m; sourceTree = "<group>"; };
+		77F12106231D1BE8000CC316 /* ShiMingRenZhengView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShiMingRenZhengView.h; path = ../../../../../../../Documents/ShiMingRenZhengView.h; sourceTree = "<group>"; };
+		77F12107231D1BE8000CC316 /* ShiMingRenZhengView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShiMingRenZhengView.m; path = ../../../../../../../Documents/ShiMingRenZhengView.m; sourceTree = "<group>"; };
+		77F12109231D22AF000CC316 /* ImagePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePlayerView.h; sourceTree = "<group>"; };
+		77F1210A231D22AF000CC316 /* ImagePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePlayerView.m; sourceTree = "<group>"; };
 		77F218A223138F8D00F75F2E /* VTContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTContentView.m; sourceTree = "<group>"; };
 		77F218A323138F8D00F75F2E /* UIColor+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VTMagic.h"; sourceTree = "<group>"; };
 		77F218A423138F8D00F75F2E /* UIScrollView+VTMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VTMagic.h"; sourceTree = "<group>"; };
@@ -408,6 +524,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194DEFCB231A0614003195F6 /* 登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				194DEFCD231A0633003195F6 /* View */,
+				194DEFCC231A0629003195F6 /* Controller */,
+			);
+			path = "登陆";
+			sourceTree = "<group>";
+		};
+		194DEFCC231A0629003195F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				194DEFCE231A0663003195F6 /* LoginViewController.h */,
+				194DEFCF231A0663003195F6 /* LoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		194DEFCD231A0633003195F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				194DEFD1231A0672003195F6 /* LoginView.h */,
+				194DEFD2231A0672003195F6 /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		196BC062231B5CFA001314F4 /* 找回密码 */ = {
+			isa = PBXGroup;
+			children = (
+				196BC071231B7843001314F4 /* ForgetPasswordViewController.h */,
+				196BC072231B7843001314F4 /* ForgetPasswordViewController.m */,
+				196BC074231B788A001314F4 /* ForgetPasswordView.h */,
+				196BC075231B788A001314F4 /* ForgetPasswordView.m */,
+			);
+			path = "找回密码";
+			sourceTree = "<group>";
+		};
+		196BC06B231B6B35001314F4 /* 选择国家和地区代码 */ = {
+			isa = PBXGroup;
+			children = (
+				196BC06C231B6B59001314F4 /* SelectCountryViewController.h */,
+				196BC06D231B6B59001314F4 /* SelectCountryViewController.m */,
+			);
+			path = "选择国家和地区代码";
+			sourceTree = "<group>";
+		};
+		19CF5470231B5BB000F5EAD2 /* 手机短信验证 */ = {
+			isa = PBXGroup;
+			children = (
+				196BC066231B5D9D001314F4 /* PhoneYZViewController.h */,
+				196BC067231B5D9D001314F4 /* PhoneYZViewController.m */,
+				196BC068231B5D9D001314F4 /* PhoneYZViewController.xib */,
+			);
+			path = "手机短信验证";
+			sourceTree = "<group>";
+		};
 		3FCA42DA99003ED83C07F9E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,6 +642,21 @@
 		7708FA5422C704E3005DDA31 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				77F12100231D1B98000CC316 /* 实名认证 */,
+				77F120F7231D1A4A000CC316 /* 消费记录 */,
+				77F120EB231D1516000CC316 /* 充值记录 */,
+				77F120E2231D13F6000CC316 /* 充值 */,
+				77F120D9231D0B99000CC316 /* 钱包 */,
+				77F120D0231D01E9000CC316 /* 余额查询 */,
+				77F120C7231CFAFD000CC316 /* 付款码 */,
+				77F120BE231CF59C000CC316 /* 更换手机号 */,
+				77F120B5231CEF32000CC316 /* 个人信息 */,
+				77F12089231CC828000CC316 /* 开通账户 */,
+				77F12082231CC828000CC316 /* 设置 */,
+				196BC06B231B6B35001314F4 /* 选择国家和地区代码 */,
+				196BC062231B5CFA001314F4 /* 找回密码 */,
+				19CF5470231B5BB000F5EAD2 /* 手机短信验证 */,
+				194DEFCB231A0614003195F6 /* 登陆 */,
 				77F218C22313922800F75F2E /* 主页 */,
 				770F380722EFD5EA001AC00F /* 下单 */,
 				7745F64A22EECC7B00CCB4AD /* 商品详情 */,
@@ -601,6 +789,8 @@
 				7745F65522EED84000CCB4AD /* MDBwebVIew.m */,
 				77F73F7F22F1443500E0EBFA /* MenuView.h */,
 				77F73F8022F1443500E0EBFA /* MenuView.m */,
+				77F12109231D22AF000CC316 /* ImagePlayerView.h */,
+				77F1210A231D22AF000CC316 /* ImagePlayerView.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -861,10 +1051,10 @@
 			isa = PBXGroup;
 			children = (
 				775639FB230FE8F500FC5DC7 /* News_Picture_Save@2x.png */,
+				775639FF230FE8F500FC5DC7 /* ImageZoomScrollView.h */,
 				775639FC230FE8F500FC5DC7 /* ImageZoomScrollView.m */,
 				775639FD230FE8F500FC5DC7 /* ImageScrollView.h */,
 				775639FE230FE8F500FC5DC7 /* ImageScrollView.m */,
-				775639FF230FE8F500FC5DC7 /* ImageZoomScrollView.h */,
 			);
 			path = ImageBrowser;
 			sourceTree = "<group>";
@@ -1042,6 +1232,413 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		77F12082231CC828000CC316 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120B0231CE973000CC316 /* SubController */,
+				77F12083231CC828000CC316 /* Controller */,
+				77F12086231CC828000CC316 /* View */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		77F12083231CC828000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F12084231CC828000CC316 /* SetViewController.h */,
+				77F12085231CC828000CC316 /* SetViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F12086231CC828000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F12088231CC828000CC316 /* SetView.h */,
+				77F12087231CC828000CC316 /* SetView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F12089231CC828000CC316 /* 开通账户 */ = {
+			isa = PBXGroup;
+			children = (
+				77F1208A231CC828000CC316 /* 手机号验证 */,
+				77F12091231CC828000CC316 /* 设置新支付密码 */,
+				77F12098231CC828000CC316 /* 设置支付密码 */,
+				77F1209F231CC828000CC316 /* 指纹验证 */,
+			);
+			path = "开通账户";
+			sourceTree = "<group>";
+		};
+		77F1208A231CC828000CC316 /* 手机号验证 */ = {
+			isa = PBXGroup;
+			children = (
+				77F1208B231CC828000CC316 /* Controller */,
+				77F1208E231CC828000CC316 /* View */,
+			);
+			path = "手机号验证";
+			sourceTree = "<group>";
+		};
+		77F1208B231CC828000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F1208D231CC828000CC316 /* PhoneYanZhenViewController.h */,
+				77F1208C231CC828000CC316 /* PhoneYanZhenViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F1208E231CC828000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F12090231CC828000CC316 /* PhoneYanZhenView.h */,
+				77F1208F231CC828000CC316 /* PhoneYanZhenView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F12091231CC828000CC316 /* 设置新支付密码 */ = {
+			isa = PBXGroup;
+			children = (
+				77F12092231CC828000CC316 /* Controller */,
+				77F12095231CC828000CC316 /* View */,
+			);
+			path = "设置新支付密码";
+			sourceTree = "<group>";
+		};
+		77F12092231CC828000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F12093231CC828000CC316 /* SetNewPayPasswordViewController.h */,
+				77F12094231CC828000CC316 /* SetNewPayPasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F12095231CC828000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F12097231CC828000CC316 /* SetNewPayPasswordView.h */,
+				77F12096231CC828000CC316 /* SetNewPayPasswordView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F12098231CC828000CC316 /* 设置支付密码 */ = {
+			isa = PBXGroup;
+			children = (
+				77F12099231CC828000CC316 /* Controller */,
+				77F1209C231CC828000CC316 /* View */,
+			);
+			path = "设置支付密码";
+			sourceTree = "<group>";
+		};
+		77F12099231CC828000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F1209B231CC828000CC316 /* SetPayPasswordViewController.h */,
+				77F1209A231CC828000CC316 /* SetPayPasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F1209C231CC828000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F1209D231CC828000CC316 /* SetPayPasswordView.h */,
+				77F1209E231CC828000CC316 /* SetPayPasswordView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F1209F231CC828000CC316 /* 指纹验证 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120A0231CC828000CC316 /* Controller */,
+				77F120A3231CC828000CC316 /* View */,
+			);
+			path = "指纹验证";
+			sourceTree = "<group>";
+		};
+		77F120A0231CC828000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120A2231CC828000CC316 /* ZhiWenYanZhenViewController.h */,
+				77F120A1231CC828000CC316 /* ZhiWenYanZhenViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120A3231CC828000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120A5231CC828000CC316 /* ZhiWenYanZhenView.h */,
+				77F120A4231CC828000CC316 /* ZhiWenYanZhenView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F120B0231CE973000CC316 /* SubController */ = {
+			isa = PBXGroup;
+			children = (
+				77F120B1231CE9C9000CC316 /* 关于我们 */,
+			);
+			path = SubController;
+			sourceTree = "<group>";
+		};
+		77F120B1231CE9C9000CC316 /* 关于我们 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120B2231CE9EA000CC316 /* GuanYuWoMenViewController.h */,
+				77F120B3231CE9EA000CC316 /* GuanYuWoMenViewController.m */,
+			);
+			path = "关于我们";
+			sourceTree = "<group>";
+		};
+		77F120B5231CEF32000CC316 /* 个人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120B7231CEF46000CC316 /* View */,
+				77F120B6231CEF3B000CC316 /* Controller */,
+			);
+			path = "个人信息";
+			sourceTree = "<group>";
+		};
+		77F120B6231CEF3B000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120B8231CEF5C000CC316 /* UserInfoViewController.h */,
+				77F120B9231CEF5C000CC316 /* UserInfoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120B7231CEF46000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120BB231CEF6F000CC316 /* UserInfoView.h */,
+				77F120BC231CEF6F000CC316 /* UserInfoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F120BE231CF59C000CC316 /* 更换手机号 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120C0231CF5AD000CC316 /* View */,
+				77F120BF231CF5A4000CC316 /* Controller */,
+			);
+			path = "更换手机号";
+			sourceTree = "<group>";
+		};
+		77F120BF231CF5A4000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120C4231CF5CE000CC316 /* ChangePhoneViewController.h */,
+				77F120C5231CF5CE000CC316 /* ChangePhoneViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120C0231CF5AD000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120C1231CF5C0000CC316 /* ChangePhoneView.h */,
+				77F120C2231CF5C0000CC316 /* ChangePhoneView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F120C7231CFAFD000CC316 /* 付款码 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120C9231CFB0E000CC316 /* View */,
+				77F120C8231CFB06000CC316 /* Controller */,
+			);
+			path = "付款码";
+			sourceTree = "<group>";
+		};
+		77F120C8231CFB06000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120CA231CFB1D000CC316 /* FuKuanMaViewController.h */,
+				77F120CB231CFB1D000CC316 /* FuKuanMaViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120C9231CFB0E000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120CD231CFB2D000CC316 /* FuKuanMaView.h */,
+				77F120CE231CFB2D000CC316 /* FuKuanMaView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F120D0231D01E9000CC316 /* 余额查询 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120D2231D01FE000CC316 /* View */,
+				77F120D1231D01F7000CC316 /* Controller */,
+			);
+			path = "余额查询";
+			sourceTree = "<group>";
+		};
+		77F120D1231D01F7000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120D6231D022B000CC316 /* YuEChaXunViewController.h */,
+				77F120D7231D022B000CC316 /* YuEChaXunViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120D2231D01FE000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120D3231D0215000CC316 /* YuEChaXunView.h */,
+				77F120D4231D0215000CC316 /* YuEChaXunView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F120D9231D0B99000CC316 /* 钱包 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120DB231D0BAF000CC316 /* View */,
+				77F120DA231D0BA1000CC316 /* Controller */,
+			);
+			path = "钱包";
+			sourceTree = "<group>";
+		};
+		77F120DA231D0BA1000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120DC231D0BBB000CC316 /* QianBaoViewController.h */,
+				77F120DD231D0BBB000CC316 /* QianBaoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120DB231D0BAF000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120DF231D0BCB000CC316 /* QianBaoView.h */,
+				77F120E0231D0BCB000CC316 /* QianBaoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F120E2231D13F6000CC316 /* 充值 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120E4231D1407000CC316 /* View */,
+				77F120E3231D13FE000CC316 /* Controller */,
+			);
+			path = "充值";
+			sourceTree = "<group>";
+		};
+		77F120E3231D13FE000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120E8231D1445000CC316 /* ChongZhiViewController.h */,
+				77F120E9231D1445000CC316 /* ChongZhiViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120E4231D1407000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120E5231D141A000CC316 /* ChongZhiView.h */,
+				77F120E6231D141A000CC316 /* ChongZhiView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F120EB231D1516000CC316 /* 充值记录 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120ED231D1529000CC316 /* View */,
+				77F120EC231D1522000CC316 /* Controller */,
+			);
+			path = "充值记录";
+			sourceTree = "<group>";
+		};
+		77F120EC231D1522000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120F1231D1553000CC316 /* ChongZhiJiLuTableViewController.h */,
+				77F120F2231D1553000CC316 /* ChongZhiJiLuTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120ED231D1529000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120F4231D1568000CC316 /* ChongZhiJiLuTableViewCell.h */,
+				77F120F5231D1568000CC316 /* ChongZhiJiLuTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F120F7231D1A4A000CC316 /* 消费记录 */ = {
+			isa = PBXGroup;
+			children = (
+				77F120F9231D1A59000CC316 /* View */,
+				77F120F8231D1A53000CC316 /* Controller */,
+			);
+			path = "消费记录";
+			sourceTree = "<group>";
+		};
+		77F120F8231D1A53000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F120FD231D1A82000CC316 /* XiaoFeiJiLuTableViewController.h */,
+				77F120FE231D1A82000CC316 /* XiaoFeiJiLuTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F120F9231D1A59000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F120FA231D1A70000CC316 /* XiaoFeiJiLuTableViewCell.h */,
+				77F120FB231D1A70000CC316 /* XiaoFeiJiLuTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77F12100231D1B98000CC316 /* 实名认证 */ = {
+			isa = PBXGroup;
+			children = (
+				77F12102231D1BB3000CC316 /* View */,
+				77F12101231D1BA8000CC316 /* Controller */,
+			);
+			path = "实名认证";
+			sourceTree = "<group>";
+		};
+		77F12101231D1BA8000CC316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77F12103231D1BD7000CC316 /* ShiMingRenZhengViewController.h */,
+				77F12104231D1BD7000CC316 /* ShiMingRenZhengViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77F12102231D1BB3000CC316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F12106231D1BE8000CC316 /* ShiMingRenZhengView.h */,
+				77F12107231D1BE8000CC316 /* ShiMingRenZhengView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		77F218A123138F8D00F75F2E /* VTMagic */ = {
 			isa = PBXGroup;
 			children = (
@@ -1091,6 +1688,10 @@
 		77F218C42313924400F75F2E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				196BC077231B9647001314F4 /* MainHomeView.h */,
+				196BC078231B9647001314F4 /* MainHomeView.m */,
+				19BBE834231C12B000219DAC /* MainHomeBangDingTiShiView.h */,
+				19BBE835231C12B000219DAC /* MainHomeBangDingTiShiView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1488,6 +2089,7 @@
 				77F218D92313B8C800F75F2E /* Localizable.strings in Resources */,
 				77A8E88322F2C02800CAAF69 /* back_click@2x.png in Resources */,
 				77F218C12313905600F75F2E /* themejson_night.json in Resources */,
+				196BC06A231B5D9D001314F4 /* PhoneYZViewController.xib in Resources */,
 				7708FA4622C6F597005DDA31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1543,22 +2145,29 @@
 			files = (
 				773805E72318FA4B005290B6 /* SUCache.m in Sources */,
 				770F381722EFDC22001AC00F /* XiaDanGoodsTableViewCell.m in Sources */,
+				77F120A7231CC828000CC316 /* SetView.m in Sources */,
 				77F218D62313B51600F75F2E /* ChangeLanguage.m in Sources */,
 				770F381822EFDC22001AC00F /* XiaDanGoodsView.m in Sources */,
 				7708FAF222C70E77005DDA31 /* UIView+Additions.m in Sources */,
+				77F120E1231D0BCB000CC316 /* QianBaoView.m in Sources */,
 				77F73F5422F12C0400E0EBFA /* AddressListsTableViewCell.m in Sources */,
 				77F73F8122F1443600E0EBFA /* MenuView.m in Sources */,
 				77F218B723138F8D00F75F2E /* VTMagicController.m in Sources */,
 				7708FAA422C707F5005DDA31 /* UINavigationController+APSafeTransition.m in Sources */,
 				773805E62318FA4B005290B6 /* UIImageView+CreateByUrl.m in Sources */,
+				77F120EA231D1445000CC316 /* ChongZhiViewController.m in Sources */,
+				77F120AF231CC828000CC316 /* ZhiWenYanZhenView.m in Sources */,
 				770F382222F0454D001AC00F /* MyMainView.m in Sources */,
 				777C4C9222EA8BEE00467FF2 /* JianLeKeBaiCaiMainItemScrollView.m in Sources */,
 				77F218BB23138F8D00F75F2E /* UIColor+VTMagic.m in Sources */,
 				7708FAA922C707F5005DDA31 /* UIView+UIViewExt.m in Sources */,
 				77F73F4422F1265100E0EBFA /* CollectsTableViewController.m in Sources */,
 				7745F65122EECD1F00CCB4AD /* GoodsDetailViewController.m in Sources */,
+				77F120AE231CC828000CC316 /* ZhiWenYanZhenViewController.m in Sources */,
+				77F12105231D1BD7000CC316 /* ShiMingRenZhengViewController.m in Sources */,
 				77F73F5722F1341900E0EBFA /* AddressAddViewController.m in Sources */,
 				77F218B623138F8D00F75F2E /* VTContentView.m in Sources */,
+				77F120C6231CF5CE000CC316 /* ChangePhoneViewController.m in Sources */,
 				7708FB0322C70FF9005DDA31 /* MyMainViewController.m in Sources */,
 				7708FB0622C71010005DDA31 /* GouWuCheMainViewController.m in Sources */,
 				7745F65722EED84000CCB4AD /* MDBwebVIew.m in Sources */,
@@ -1569,29 +2178,42 @@
 				77F73F8A22F1455A00E0EBFA /* MyFanLiDingDanMingXiTableViewController.m in Sources */,
 				7708FAA822C707F5005DDA31 /* UINavigationBar+FixMargin.m in Sources */,
 				77F73F6322F13E0600E0EBFA /* MyFanLiViewController.m in Sources */,
+				77F120A9231CC828000CC316 /* PhoneYanZhenView.m in Sources */,
 				77F73F8722F1450800E0EBFA /* MyFanLiDingDanMingXiViewController.m in Sources */,
+				77F12108231D1BE8000CC316 /* ShiMingRenZhengView.m in Sources */,
 				77F218C82313928D00F75F2E /* MainHomeViewController.m in Sources */,
+				77F120D5231D0215000CC316 /* YuEChaXunView.m in Sources */,
 				77F73F7822F141DE00E0EBFA /* MyTiXianJiLuViewController.m in Sources */,
 				77F73F4E22F12A4100E0EBFA /* AddressListsViewController.m in Sources */,
 				77F218BA23138F8D00F75F2E /* UIScrollView+VTMagic.m in Sources */,
 				77F73FAA22F1461700E0EBFA /* MyFanLiDingDanMingXiTableViewCell.m in Sources */,
 				77563A02230FE8F500FC5DC7 /* ImageScrollView.m in Sources */,
 				77F73FC822F1736300E0EBFA /* MyOrderListTableViewCell.m in Sources */,
+				77F120AB231CC828000CC316 /* SetNewPayPasswordView.m in Sources */,
 				770F381F22F019F1001AC00F /* NewPeopleBuyTableViewCell.m in Sources */,
 				77DE4A5022E9B2C60062E98C /* JianLeKeBaiCaiMainView.m in Sources */,
 				770F381222EFD725001AC00F /* XiaDanView.m in Sources */,
+				77F120BA231CEF5C000CC316 /* UserInfoViewController.m in Sources */,
+				77F120E7231D141A000CC316 /* ChongZhiView.m in Sources */,
 				776ABA8522EA90F8007E8848 /* JianLeKeBaiCaiMainTableView.m in Sources */,
 				77F73F7B22F141EE00E0EBFA /* MyFanLiMingXiViewController.m in Sources */,
 				7745F62C22EE9DC600CCB4AD /* GouWuCheMainTableView.m in Sources */,
 				7708FAE022C70D70005DDA31 /* HTTPManager.m in Sources */,
+				77F120AD231CC828000CC316 /* SetPayPasswordView.m in Sources */,
 				7745F62F22EEA1A700CCB4AD /* GouWuCheMainTableViewCell.m in Sources */,
+				77F1210B231D22B0000CC316 /* ImagePlayerView.m in Sources */,
 				77F73FB822F1688C00E0EBFA /* MyYouHuiQuanTableViewController.m in Sources */,
 				77F73F5A22F1345900E0EBFA /* AddressAddView.m in Sources */,
+				77F120FF231D1A82000CC316 /* XiaoFeiJiLuTableViewController.m in Sources */,
 				7708FB0C22C71035005DDA31 /* JianLeKeBaiCaiMainViewController.m in Sources */,
 				7708FAEE22C70E1F005DDA31 /* BDKNotifyHUD.m in Sources */,
+				77F120FC231D1A70000CC316 /* XiaoFeiJiLuTableViewCell.m in Sources */,
+				77F120AA231CC828000CC316 /* SetNewPayPasswordViewController.m in Sources */,
 				77A8E86622F2760B00CAAF69 /* OrderDetailViewController.m in Sources */,
 				77A8E86C22F2774400CAAF69 /* TuiKuanDetailView.m in Sources */,
+				196BC069231B5D9D001314F4 /* PhoneYZViewController.m in Sources */,
 				7708FAAC22C707F5005DDA31 /* UITabBar+badge.m in Sources */,
+				77F120DE231D0BBB000CC316 /* QianBaoViewController.m in Sources */,
 				7708FAE822C70DC1005DDA31 /* GMDCircleLoader.m in Sources */,
 				7708FAEB22C70DEF005DDA31 /* MDB_ShareExstensionUserDefault.m in Sources */,
 				7745F62622EE8BB000CCB4AD /* FenLeiMainTableViewCell.m in Sources */,
@@ -1601,24 +2223,35 @@
 				7708FAA622C707F5005DDA31 /* UITextView+Placeholder.m in Sources */,
 				777C4C9522EA8E5100467FF2 /* JianLeKeBaiCaiMainScrollView.m in Sources */,
 				7745F63B22EEC55000CCB4AD /* FenLeiSearchView.m in Sources */,
+				77F120AC231CC828000CC316 /* SetPayPasswordViewController.m in Sources */,
+				194DEFD0231A0663003195F6 /* LoginViewController.m in Sources */,
+				77F120D8231D022B000CC316 /* YuEChaXunViewController.m in Sources */,
 				773805E82318FA4B005290B6 /* SUCacheItem.m in Sources */,
 				7708FA4322C6F597005DDA31 /* ViewController.m in Sources */,
 				77563A01230FE8F500FC5DC7 /* ImageZoomScrollView.m in Sources */,
 				77A8E87B22F28C7000CAAF69 /* OrderWuLiuDetailTableViewCell.m in Sources */,
 				77F73F4722F1266800E0EBFA /* CollectsTableViewCell.m in Sources */,
 				77F218BC23138F8D00F75F2E /* VTMagicView.m in Sources */,
+				77F120CF231CFB2D000CC316 /* FuKuanMaView.m in Sources */,
+				77F120A8231CC828000CC316 /* PhoneYanZhenViewController.m in Sources */,
 				7745F62322EE867D00CCB4AD /* FenLeiMainView.m in Sources */,
 				7708FAAB22C707F5005DDA31 /* UIImage+ExtensionScal.m in Sources */,
 				77F73FBB22F1693F00E0EBFA /* MyYouHuiQuanTableViewCell.m in Sources */,
 				7708FA4E22C6F59C005DDA31 /* main.m in Sources */,
+				19BBE836231C12B000219DAC /* MainHomeBangDingTiShiView.m in Sources */,
+				77F120BD231CEF6F000CC316 /* UserInfoView.m in Sources */,
+				77F120C3231CF5C0000CC316 /* ChangePhoneView.m in Sources */,
 				7745F63822EEC49B00CCB4AD /* FenLeiSearchViewController.m in Sources */,
 				77F73FC522F1723C00E0EBFA /* MyorderListTableViewController.m in Sources */,
 				7745F64122EEC89000CCB4AD /* FenLeiSearchTableViewCell.m in Sources */,
 				7708FAA722C707F5005DDA31 /* UIColor+Hex.m in Sources */,
 				77F73F6922F1401600E0EBFA /* MyTiXianViewController.m in Sources */,
+				196BC06F231B6B59001314F4 /* SelectCountryViewController.m in Sources */,
 				7708FAF822C70F5E005DDA31 /* RootViewController.m in Sources */,
 				77A8E86F22F2775500CAAF69 /* OrderDetailView.m in Sources */,
+				77F120A6231CC828000CC316 /* SetViewController.m in Sources */,
 				77F218B923138F8D00F75F2E /* UIButton+VTMagic.m in Sources */,
+				77F120B4231CE9EA000CC316 /* GuanYuWoMenViewController.m in Sources */,
 				77F73F6622F13E1800E0EBFA /* MyFanLiView.m in Sources */,
 				7708FAF922C70F5E005DDA31 /* RootTableViewController.m in Sources */,
 				77A8E86922F2761D00CAAF69 /* TuiKuanDetailViewController.m in Sources */,
@@ -1627,12 +2260,19 @@
 				770F380F22EFD6B3001AC00F /* XiaDanViewController.m in Sources */,
 				776ABA8B22EAB62F007E8848 /* LJDynamicItem.m in Sources */,
 				770F381C22F01908001AC00F /* NewPeopleBuyTableViewController.m in Sources */,
+				77F120CC231CFB1D000CC316 /* FuKuanMaViewController.m in Sources */,
 				77F218B823138F8D00F75F2E /* VTMenuBar.m in Sources */,
 				77F73FC222F1720000E0EBFA /* MyOrderMainViewController.m in Sources */,
+				77F120F6231D1568000CC316 /* ChongZhiJiLuTableViewCell.m in Sources */,
 				77F73F7E22F1420600E0EBFA /* MyFanLiMingXiView.m in Sources */,
+				196BC076231B788A001314F4 /* ForgetPasswordView.m in Sources */,
+				196BC073231B7843001314F4 /* ForgetPasswordViewController.m in Sources */,
 				7745F62922EE934000CCB4AD /* FenLeiMainCollectionViewCell.m in Sources */,
 				77F73F6C22F1402800E0EBFA /* MyTiXianView.m in Sources */,
 				7745F65422EECD2F00CCB4AD /* GoodsDetailView.m in Sources */,
+				194DEFD3231A0672003195F6 /* LoginView.m in Sources */,
+				77F120F3231D1553000CC316 /* ChongZhiJiLuTableViewController.m in Sources */,
+				196BC079231B9647001314F4 /* MainHomeView.m in Sources */,
 				7745F63E22EEC7CD00CCB4AD /* FenLeiSearchTableView.m in Sources */,
 				77A8E87522F28C4400CAAF69 /* OrderWuLiuDetailViewController.m in Sources */,
 				7708FA4022C6F597005DDA31 /* AppDelegate.m in Sources */,

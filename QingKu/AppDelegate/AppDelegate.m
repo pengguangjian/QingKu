@@ -16,6 +16,8 @@
 
 #import <GoogleSignIn/GoogleSignIn.h>
 
+#import "LoginViewController.h"
+
 #define FacebookAPPKEY @"2569099436658344"
 #define FacebookAppSecret @"0750e983dfb14af7744770f32b4c4139"
 
@@ -48,8 +50,10 @@
     ///111
     [self configTheme];
     
-    MainHomeViewController *mvc = [[MainHomeViewController alloc] init];
-    self.nvc = [[UINavigationController alloc] initWithRootViewController:mvc];
+//    MainHomeViewController *mvc = [[MainHomeViewController alloc] init];
+    LoginViewController *lvc = [[LoginViewController alloc] init];
+    
+    self.nvc = [[UINavigationController alloc] initWithRootViewController:lvc];
     
     [self.window setRootViewController:self.nvc];
     

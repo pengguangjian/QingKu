@@ -6,8 +6,100 @@
   Copyright © 2019 mcxzfa. All rights reserved.
 */
 
-"bottomName" = "更改";
+"denglu" = "登陆";
+"wangjimima" = "忘记密码？";
+"otherdenglufs" = "使用其它方式登录";
+"Facebook" = "Facebook";
+"google" = "google";
+"shoujiduanxin" = "手机短信";
+"qingshuruyonhum" = "请输入用户名";
+"qingshurumima" = "请输入密码";
+"kaifagongshi" = "重庆交通开投科技发展有限公司提供技术支持";
 
+"shoujiduanxinyanzhen" = "手机短信验证";
+"shoujiyanzhenma" = "手机验证码";
+"qingshuruyanzhenma" = "请输入验证码";
+"miandian" = "缅甸";
+"qingshurunindeshoujihao" = "请输入您的手机号";
+"qingshurunindeyanzhenma" = "请输入您的验证码";
+"huoquyanzhenma" = "获取验证码";
+"queding" = "确定";
+"zhongguo" = "中国";
+
+"xuanzheguojiahediqudaima" = "选择国家和地区代码";
+
+
+"wangjimima" = "忘记密码";
+"zhaohuimima" = "找回密码";
+"qingshuruxinmimayanzsjh" = "请输入新密码并验证手机号";
+"qingshuruxindemima" = "请输入新的密码";
+"zhaohuimimashuomingms" = "说明：未绑定手机号的账号无法找回密码！";
+
+"homeshimingrengzhengtishi" = "您还没有实名认证，赶快去实名认证吧！";
+"kaitongzhenghu" = "开通账户";
+"shezhi" = "设置";
+"wode" = "我的";
+"fukuanma" = "付款码";
+"yuechaxun" = "余额查询";
+"qianbao" = "钱包";
+"chongzhi" = "充值";
+
+"tishi" = "提示";
+"tishicontent" = "为了您账户安全请绑定手机号码，可用于找回密码！";
+"tishibingding" = "马上去绑定 >>";
+
+"yuyanqiehuan" = "语言切换";
+"zhutiqiehuan" = "主题切换";
+"banbengengxin" = "版本更新";
+"guanyuwomen" = "关于我们";
+"qingchuhuancun" = "清除缓存";
+"lianxikefu" = "联系客服";
+"tuichudenglu" = "退出登录";
+"zhongwen" = "中文";
+"baitian" = "白天";
+
+
+"kaitongmimazhifu" = "开通密码支付";
+"kaitongmimazhifuqingyanhiwen" = "请验证已经在手机系统中录入的指纹";
+"shezhimima" = "设置密码";
+"shezhizhifumima" = "设置支付密码";
+"qingshuruzhifumima" = "请输入支付密码";
+"shezhixinmima" = "设置新密码";
+"shurugerenxinxi" = "请输入个人信息";
+"qingshuruzhenshiname" = "请输入真实姓名";
+"qingshurushenfenzhennumber" = "请输入身份证号码";
+"xiayibu" = "下一步";
+"shoujihaomayanzheng" = "手机号码验证";
+
+"gerenxinxi" = "个人信息";
+"touxiang" = "头像";
+"zhanghao" = "账号";
+"shimingrenzheng" = "实名认证";
+"chongzhizhifumima" = "重置支付密码";
+"genghuanshoujihao" = "更换手机号";
+
+"shoujihaoyanzheng" = "手机号验证";
+"shurugenghuanshoujihao" = "请输入更换手机号";
+
+
+"fukuanmazidongshuaxin" = "付款码自动刷新";
+
+"changjianwenti" = "常见问题";
+
+
+"qingshurujiaotongkahao" = "请输入交通卡号";
+"yuechaxunshuomingtishi" = "由于数据传输到系统，存在数据延迟卡号余额查询结果仅供参考";
+"xuanzhelishikaohao" = "选择历史卡号";
+
+
+"zhanghuyue" = "账户余额";
+"chongzhijilu" = "充值记录";
+"xiaofeijilu" = "消费记录";
+
+"chongzhima" = "充值码";
+
+"shimingrenzhentop" = "请拍摄并上传您的身份证照片";
+"shimingrenzhentopmin" = "说明：信息仅用于身份验证，MoMo保障您的信息安全";
 
 
 

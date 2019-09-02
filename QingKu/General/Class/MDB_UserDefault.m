@@ -9,6 +9,7 @@
 #import "MDB_UserDefault.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 
+#import "ChangeLanguage.h"
 
 static BOOL kIsRightInit = NO;
 
@@ -97,6 +98,14 @@ static BOOL kIsRightInit = NO;
     }
     
     return noteStr;
+}
+////获取本地设置文字
++(NSString *)getSetStringNmae:(NSString *)strname
+{
+    NSBundle *bundle = [ChangeLanguage bundle];
+    
+    NSString *str = [bundle localizedStringForKey:strname value:nil table:@"Localizable"];
+    return str;
 }
 
 

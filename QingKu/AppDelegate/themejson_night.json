@@ -1,8 +1,10 @@
 {
     "color": {
         
-        "common_bg_color_1" : "#f6ff00",
-        "common_bg_color_2" : "#222222",
+        "main_write_color" : "ffffff",
+        "main_main_color" : "d1a71d",
+        "main_line_color" : "eaeaea",
+        "main_textGraw_color" : "999999",
     },
     
     "image": {

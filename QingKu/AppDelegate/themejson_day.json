@@ -1,10 +1,18 @@
 {
     "color": {
         
-            "common_bg_color_1" : "#ff0000",
-            "common_bg_color_2" : "999999",
-            
-            
+        "main_write_color" : "ffffff",
+        "main_main_color" : "d1a71d",
+        "main_line_color" : "eaeaea",
+        "main_textGraw_color" : "999999",
+        "main_textblack_color" : "000000",
+        "main_textblack01_color" : "111111",
+        "main_homenav_color" : "e4cc73",
+        "main_homemoney_color" : "eae30d",
+        "main_hometishi_color" : "785b00",
+        
+        
+        
             },
     
     "image": {

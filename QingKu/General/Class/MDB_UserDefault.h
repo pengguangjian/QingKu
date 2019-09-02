@@ -26,6 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 ///为文字添加横线 icenter 1 中横线
 +(NSMutableAttributedString *)arrstring:(NSString *)str andstart:(int)istart andend:(int)length andNSAttributedStringKey:(int)icenter;
 
+////获取本地设置文字
++(NSString *)getSetStringNmae:(NSString *)strname;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

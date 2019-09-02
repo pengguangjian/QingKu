@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QingKu/Sections/&#x4e3b;&#x9875;/Controller/MainHomeViewController.m"
-            timestampString = "588843040.666883"
+            timestampString = "589111790.105258"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "279"
             endingLineNumber = "279"
-            landmarkName = "-addFacebookButton"
-            landmarkType = "7">
+            landmarkName = "@implementation MainHomeViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QingKu/Sections/&#x4e3b;&#x9875;/Controller/MainHomeViewController.m"
-            timestampString = "588843040.66719"
+            timestampString = "589111790.105346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "262"
             endingLineNumber = "262"
-            landmarkName = "-_accessTokenChanged:"
-            landmarkType = "7">
+            landmarkName = "@implementation MainHomeViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
