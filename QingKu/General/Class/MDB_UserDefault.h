@@ -10,6 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
+static UIEdgeInsets kPaddingNav = {64,0,0,0};
+
 @interface MDB_UserDefault : NSObject
 
 + (instancetype)defaultInstance;

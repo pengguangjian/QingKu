@@ -33,9 +33,10 @@
             make.right.equalTo(self.view.mas_safeAreaLayoutGuideRight);
             make.bottom.equalTo(self.view.mas_safeAreaLayoutGuideBottom);
         }else{
-            make.edges.equalTo(self.view);
+            make.edges.equalTo(self.view).insets(kPaddingNav);
         }
     }];
+    
     
 }
 /*

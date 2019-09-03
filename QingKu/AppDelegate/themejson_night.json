@@ -2,15 +2,23 @@
     "color": {
         
         "main_write_color" : "ffffff",
-        "main_main_color" : "d1a71d",
+        "main_main_color" : "1c1c25",
         "main_line_color" : "eaeaea",
         "main_textGraw_color" : "999999",
+        "main_textblack_color" : "000000",
+        "main_textblack01_color" : "111111",
+        "main_homenav_color" : "e4cc73",
+        "main_homemoney_color" : "eae30d",
+        "main_hometishi_color" : "785b00",
+        
+        
+        
     },
     
     "image": {
         
         "newstoolbar_collection_btn_select_image" : "base_action_bar_back.png",
-        
+        "navbackimage" : "uinavback_black_night",
     },
     
     "other": {

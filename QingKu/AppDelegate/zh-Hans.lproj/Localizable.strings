@@ -56,8 +56,12 @@
 "lianxikefu" = "联系客服";
 "tuichudenglu" = "退出登录";
 "zhongwen" = "中文";
-"baitian" = "白天";
+"yingwen" = "英文";
+"miandianwen" = "缅甸文";
+"jiantizhongwen" = "简体中文";
 
+"baitian" = "白天";
+"yewan" = "夜晚";
 
 "kaitongmimazhifu" = "开通密码支付";
 "kaitongmimazhifuqingyanhiwen" = "请验证已经在手机系统中录入的指纹";
@@ -100,6 +104,33 @@
 
 "shimingrenzhentop" = "请拍摄并上传您的身份证照片";
 "shimingrenzhentopmin" = "说明：信息仅用于身份验证，MoMo保障您的信息安全";
+"shenimagehenumberbuyizhi" = "身份证号与身份证照片上面的号码不一致";
 
 
+"zhenshixingming" = "真实姓名";
+"shenfenzhenhao" = "身份证号";
+"qshurushenfenzhenhao" = "请输入身份证号";
+"xingbie" = "性别";
+"qxuanzhexingbie" = "请选择性别";
+"chushengriqi" = "出生日期";
+"qxuanzhechushengriqi" = "请选择日期";
+
+
+"quxiao" = "取消";
+"nan" = "男";
+"lv" = "女";
+
+"nian" = "年";
+"yue" = "月";
+"ri" = "日";
+
+"chongxinpaizhao" = "重新拍照";
+"qjshenfenzduicquyu" = "请将身份证置于此区域";
+"changshidqbianyuan" = "尝试对其边缘";
+"paizhao" = "拍照";
+"chongshoujixcxqu" = "从手机相册选择";
+
+
+"qingdakaixjquanxian" = "请打开相机权限";
+"shezhiysxiangji" = "设置-隐私-相机";
 

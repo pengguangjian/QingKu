@@ -7,6 +7,7 @@
 //
 
 #import "SetView.h"
+#import "ChangeLanguage.h"
 
 @interface SetView () <UITableViewDelegate,UITableViewDataSource>
 {
@@ -151,7 +152,17 @@
     else if (indexPath.row == 1)
     {
         UILabel *versionLabel = [[UILabel alloc] init];
-        versionLabel.text = [MDB_UserDefault getSetStringNmae:@"baitian"];
+        ////day night
+        NSString *strtemp = [LEETheme currentThemeTag];
+        if([strtemp isEqualToString:@"day"])
+        {
+            versionLabel.text = [MDB_UserDefault getSetStringNmae:@"baitian"];
+        }
+        else
+        {
+            versionLabel.text = [MDB_UserDefault getSetStringNmae:@"yewan"];
+        }
+        
         versionLabel.textAlignment = NSTextAlignmentRight;
         versionLabel.font = [UIFont systemFontOfSize:14];
         versionLabel.textColor = [UIColor colorWithHexString:@"#999999"];
@@ -224,12 +235,56 @@
     switch (indexPath.row) {
         case 0:
         {///语言切换
+            /*
+            UIAlertController *alter = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *action = [UIAlertAction actionWithTitle:[MDB_UserDefault getSetStringNmae:@"miandianwen"] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                [ChangeLanguage setUserLanguage:@"zh-my"];
+                [self.viewController.navigationController popToRootViewControllerAnimated:YES];
+            }];
+            UIAlertAction *action1 = [UIAlertAction actionWithTitle:[MDB_UserDefault getSetStringNmae:@"zhongwen"] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                [ChangeLanguage setUserLanguage:@"zh-Hans"];
+                [self.viewController.navigationController popToRootViewControllerAnimated:YES];
+            }];
+            UIAlertAction *action2 = [UIAlertAction actionWithTitle:[MDB_UserDefault getSetStringNmae:@"yingwen"] style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+                [ChangeLanguage setUserLanguage:@"en"];
+                
+                [self.viewController.navigationController popToRootViewControllerAnimated:YES];
+                
+            }];
+            [alter addAction:action];
+            [alter addAction:action1];
+            [alter addAction:action2];
+            
+            [self.viewController presentViewController:alter animated:YES completion:^{
+                
+            }];
+             */
             
         }
             break;
         case 1:
         {///主题切换
+            if ([[LEETheme currentThemeTag] isEqualToString:@"day"]) {
+                
+                [LEETheme startTheme:@"night"];
+                
+            } else {
+                
+                [LEETheme startTheme:@"day"];
+            }
             
+            ////day night
+            NSString *strtemp = [LEETheme currentThemeTag];
+            if([strtemp isEqualToString:@"day"])
+            {
+                [self.viewController.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"selfnav_back_day"] forBarMetrics:UIBarMetricsDefault];
+            }
+            else
+            {
+                [self.viewController.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"uinavback_black_night"] forBarMetrics:UIBarMetricsDefault];
+            }
+            
+
         }
             break;
         case 2:

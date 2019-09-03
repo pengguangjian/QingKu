@@ -63,6 +63,10 @@
 	<string>2c33ba4996f84</string>
 	<key>MOBAppSecret</key>
 	<string>d717ec1a73887d9b38df3896aabcb124</string>
+	<key>NSCameraUsageDescription</key>
+	<string>上传头像和身份证需要使用相机，是否允许使用相机</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>上传头像和身份证需要访问相册您是否允许打开相册</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -71,10 +75,14 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

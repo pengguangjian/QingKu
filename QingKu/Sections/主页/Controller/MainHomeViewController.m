@@ -18,7 +18,7 @@
 @interface MainHomeViewController ()
 {
     UIView *viewnavs;
-    
+    MainHomeView *mHomeView;
 }
 @end
 
@@ -57,6 +57,12 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [viewnavs setHidden:NO];
+    
+    if(mHomeView!=nil)
+    {
+        [mHomeView loadLbText];
+    }
+    
 }
 
 -(void)viewWillDisappear:(BOOL)animated
@@ -76,9 +82,10 @@
             make.right.equalTo(self.view.mas_safeAreaLayoutGuideRight);
             make.bottom.equalTo(self.view.mas_safeAreaLayoutGuideBottom);
         }else{
-            make.edges.equalTo(self.view);
+            make.edges.equalTo(self.view).insets(kPaddingNav);
         }
     }];
+    mHomeView = mview;
 }
 
 //

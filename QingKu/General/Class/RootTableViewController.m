@@ -34,7 +34,7 @@
     self.tableView.estimatedRowHeight = 0;
     self.tableView.estimatedSectionFooterHeight = 0;
     self.tableView.estimatedSectionHeaderHeight = 0;
-    self.navigationController.navigationBar.barTintColor = RadDaoHangColor;
+    self.navigationController.navigationBar.lee_theme.LeeConfigBarTintColor(@"main_main_color");
 }
 
 - (void)viewWillAppear:(BOOL)animated{

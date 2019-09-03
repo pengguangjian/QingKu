@@ -18,6 +18,7 @@
     "image": {
     
         "newstoolbar_collection_btn_select_image" : "base_action_bar_back.png",
+        "navbackimage" : "selfnav_back_day",
         
     },
     

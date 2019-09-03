@@ -93,7 +93,8 @@
     }];
     
     
-    NSArray *arrtitle = @[@"缅甸文",@"简体中文",@"English"];
+    NSArray *arrtitle = @[[MDB_UserDefault getSetStringNmae:@"miandianwen"],[MDB_UserDefault getSetStringNmae:@"jiantizhongwen"],[MDB_UserDefault getSetStringNmae:@"yingwen"]];
+    
     for(int i = 0 ; i < 3; i++)
     {
         UIButton *btitem = [[UIButton alloc] init];

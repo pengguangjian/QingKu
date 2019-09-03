@@ -16,7 +16,7 @@
 #define kScreenWidth  [[UIScreen mainScreen] bounds].size.width  //主屏幕的宽度
 #define kScreenBounds [UIScreen mainScreen].bounds               //主屏幕bounds
 
-@interface ImageScrollView ()<UIScrollViewDelegate,UIAlertViewDelegate>
+@interface ImageScrollView ()<UIScrollViewDelegate>
 
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) UIScrollView *scrollView;
@@ -65,9 +65,26 @@
     if (status == PHAuthorizationStatusRestricted ||
         status == PHAuthorizationStatusDenied) {
         
-        UIAlertView *alter = [[UIAlertView alloc] initWithTitle:@"提示" message:@"保存图片需要访问您的相册" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"允许", nil];
-        [alter show];
         
+        UIAlertController *alter = [UIAlertController alertControllerWithTitle:@"提示" message:@"设保存图片需要访问您的相册" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"取消" style:0 handler:^(UIAlertAction * _Nonnull action) {
+            //无权限
+            NSURL * url = [NSURL URLWithString: UIApplicationOpenSettingsURLString];
+            
+            if ( [[UIApplication sharedApplication] canOpenURL: url] ) {
+                
+                NSURL*url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+                
+                [[UIApplication sharedApplication] openURL:url];
+                
+            }
+        }];
+        UIAlertAction *action1 = [UIAlertAction actionWithTitle:@"取消" style:0 handler:^(UIAlertAction * _Nonnull action) {
+            
+        }];
+        [alter addAction:action];
+        [alter addAction:action1];
+        [self.viewController presentViewController:alter animated:YES completion:nil];
         
         return;
     }
@@ -188,23 +205,6 @@
         
     }
     return _countLabel;
-}
-
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    if(buttonIndex==1)
-    {
-        //无权限
-        NSURL * url = [NSURL URLWithString: UIApplicationOpenSettingsURLString];
-        
-        if ( [[UIApplication sharedApplication] canOpenURL: url] ) {
-            
-            NSURL*url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
-            
-            [[UIApplication sharedApplication] openURL:url];
-            
-        }
-    }
 }
 
 

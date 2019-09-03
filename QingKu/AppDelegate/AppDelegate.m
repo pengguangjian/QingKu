@@ -54,14 +54,13 @@
     LoginViewController *lvc = [[LoginViewController alloc] init];
     
     self.nvc = [[UINavigationController alloc] initWithRootViewController:lvc];
-    
     [self.window setRootViewController:self.nvc];
     
     
     
     
     
-    [[UITabBar appearance] setTranslucent:NO];
+//    [[UITabBar appearance] setTranslucent:NO];
     [self.window setBackgroundColor:[UIColor whiteColor]];
     return YES;
 }

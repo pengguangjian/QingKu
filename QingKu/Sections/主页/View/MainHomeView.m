@@ -23,6 +23,10 @@
 {
     ///余额
     UILabel *lbyueMoney;
+    ///
+    UILabel *lbtishimessage;
+    ///
+    NSMutableArray *arritemlb;
     
 }
 @end
@@ -171,6 +175,7 @@
         make.left.offset(15);
         make.top.bottom.equalTo(viewtishi);
     }];
+    lbtishimessage = lbtishi;
     
     UIImageView *imgvnext = [[UIImageView alloc] init];
     [imgvnext setImage:[UIImage imageNamed:@"next_right_whrite"]];
@@ -203,6 +208,7 @@
     NSInteger iline = arrnames.count/3;
     float fitemw = kMainScreenW/3.0;
     float fitemh = kMainScreenW/3.0*0.8;
+    arritemlb = [NSMutableArray new];
     for(int i = 0 ; i < iline; i++)
     {
         for(int j = 0 ; j < 3; j++)
@@ -237,7 +243,7 @@
                 make.left.right.equalTo(btitem);
                 make.height.offset(20);
             }];
-            
+            [arritemlb addObject:lbitem];
         }
     }
     
@@ -338,6 +344,30 @@
         }
     }
     
+    
+}
+
+-(void)loadLbText
+{
+    [lbtishimessage setText:[MDB_UserDefault getSetStringNmae:@"homeshimingrengzhengtishi"]];
+    
+    NSArray *arrnames = @[[MDB_UserDefault getSetStringNmae:@"kaitongzhenghu"],
+                          [MDB_UserDefault getSetStringNmae:@"shezhi"],
+                          [MDB_UserDefault getSetStringNmae:@"wode"]];
+    
+    arrnames = @[[MDB_UserDefault getSetStringNmae:@"fukuanma"],
+                 [MDB_UserDefault getSetStringNmae:@"yuechaxun"],
+                 [MDB_UserDefault getSetStringNmae:@"qianbao"],
+                 [MDB_UserDefault getSetStringNmae:@"chongzhi"],
+                 [MDB_UserDefault getSetStringNmae:@"shezhi"],
+                 [MDB_UserDefault getSetStringNmae:@"wode"]];
+    
+    int i = 0 ;
+    for(UILabel *lb in arritemlb)
+    {
+        [lb setText:arrnames[i]];
+        i++;
+    }
     
 }
 

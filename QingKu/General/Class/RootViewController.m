@@ -32,19 +32,22 @@
     if (self.navigationController.viewControllers.count>1) {
         [self setNavBarBackBtn];
     }
-    self.navigationController.navigationBar.barTintColor = RadDaoHangColor;
-    
-    
-    
-    
+    self.navigationController.navigationBar.lee_theme.LeeConfigBarTintColor(@"main_main_color");
+//    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"uinavback_black_night"] forBarMetrics:UIBarMetricsDefault];
+//    [self.navigationController.navigationBar setShadowImage:[UIImage imageNamed:@"uinavback_black_night"]];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    
 }
 
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

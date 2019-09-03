@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)initUserLanguage;//初始化语言文件
 
 + (NSString *)userLanguage;//获取应用当前语言
-
+////en zh-Hans  my
 + (void)setUserLanguage:(NSString *)language;//设置当前语言
 
 @end

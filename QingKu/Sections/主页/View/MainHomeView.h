@@ -11,6 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MainHomeView : UIView
+///更新首页的文字
+-(void)loadLbText;
 
 @end
 

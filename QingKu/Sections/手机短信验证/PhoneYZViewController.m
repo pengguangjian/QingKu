@@ -7,10 +7,9 @@
 //
 
 #import "PhoneYZViewController.h"
+#import "PhoneYZView.h"
 
-#import "SelectCountryViewController.h"
-
-@interface PhoneYZViewController ()<SelectCountryViewControllerDelegete>
+@interface PhoneYZViewController ()
 
 @end
 
@@ -26,73 +25,20 @@
 
 -(void)drawUI
 {
-    self.view.lee_theme.LeeConfigBackgroundColor(@"main_write_color");
-    
-    
-    [self.lbtopyzm setText:[MDB_UserDefault getSetStringNmae:@"shoujiyanzhenma"]];
-    self.lbtopyzm.lee_theme.LeeConfigTextColor(@"main_textblack_color");
-    
-    
-    [self.lbtopminyzm setText:[MDB_UserDefault getSetStringNmae:@"qingshuruyanzhenma"]];
-    self.lbtopminyzm.lee_theme.LeeConfigTextColor(@"main_textGraw_color");
-    
-    [self.lbcountry setText:[MDB_UserDefault getSetStringNmae:@"miandian"]];
-    [self.lbcountry setText:@"China"];
-    [self.lbcountry sizeToFit];
-    self.lbcountry.lee_theme.LeeConfigTextColor(@"main_textblack_color");
-    
-    [self.imgvCountry setLeft:self.lbcountry.right+3];
-    
-    [self.fieldPhone setPlaceholder:[MDB_UserDefault getSetStringNmae:@"qingshurunindeshoujihao"]];
-    self.fieldPhone.lee_theme.LeeConfigTextColor(@"main_textblack_color");
-    
-    [self.fieldCode setPlaceholder:[MDB_UserDefault getSetStringNmae:@"qingshurunindeyanzhenma"]];
-    self.fieldCode.lee_theme.LeeConfigTextColor(@"main_textblack_color");
-    
-    [self.btCode setTitle:[MDB_UserDefault getSetStringNmae:@"huoquyanzhenma"] forState:UIControlStateNormal];
-    
-    [self.btok setTitle:[MDB_UserDefault getSetStringNmae:@"queding"] forState:UIControlStateNormal];
-    
-    [self.btok.layer setMasksToBounds:YES];
-    [self.btok.layer setCornerRadius:self.btok.height/2.0];
-    
-    [self.viewSelectCountry setUserInteractionEnabled:YES];
-    UITapGestureRecognizer *tapview = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(conuntryAction)];
-    [self.viewSelectCountry addGestureRecognizer:tapview];
-//    [self.viewSelectCountry setWidth:90];
+    PhoneYZView *view = [[PhoneYZView alloc] init];
+    [self.view addSubview:view];
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        if (@available(iOS 11.0, *)) {
+            make.top.equalTo(self.view.mas_safeAreaLayoutGuideTop);
+            make.left.equalTo(self.view.mas_safeAreaLayoutGuideLeft);
+            make.right.equalTo(self.view.mas_safeAreaLayoutGuideRight);
+            make.bottom.equalTo(self.view.mas_safeAreaLayoutGuideBottom);
+        }else{
+            make.edges.equalTo(self.view).insets(kPaddingNav);
+        }
+    }];
 }
 
--(void)conuntryAction
-{
-    SelectCountryViewController *svc = [[SelectCountryViewController alloc] init];
-    [svc setDelegete:self];
-    svc.inomoselect = 0;
-    [self.navigationController pushViewController:svc animated:YES];
-}
--(void)selectCountry:(NSInteger)iselect
-{
-    if(iselect<0)
-    {
-        iselect = 0;
-    }
-    if(iselect>1)
-    {
-        iselect = 1;
-    }
-    NSArray *arrname = @[[MDB_UserDefault getSetStringNmae:@"miandian"],[MDB_UserDefault getSetStringNmae:@"zhongguo"]];
-    
-    [self.lbcountry setText:arrname[iselect]];
-    
-}
-
-- (IBAction)codeAction:(id)sender {
-    
-    NSLog(@"获取验证码");
-}
-- (IBAction)okAction:(id)sender {
-    
-    NSLog(@"确定");
-}
 
 /*
 #pragma mark - Navigation
